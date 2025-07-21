@@ -1,13 +1,14 @@
 <script>
-    import { onMount } from 'svelte';
     import IconDice from 'virtual:icons/ion/dice';
     import IconLockOpen from 'virtual:icons/ion/lock-open';
     import IconLockClosed from 'virtual:icons/ion/lock-closed';
     import IconList from 'virtual:icons/ion/list';
+	import _ from "lodash";
 
     let { data } = $props();
 
     const weapons = data.weapons;
+    const weaponLookup = _.keyBy(weapons, "id");
 
     function filterByCategory(category) {
         return weapons.filter(
@@ -37,7 +38,23 @@
         return result;
     }
 
-    let selected = $state({
+    function loadSelectedItems(){
+        if(!data.selectedItems) return;
+        try{
+
+            const mapped = _.mapValues(data.selectedItems, p => weaponLookup[p]);
+
+            console.log(data.selectedItems, mapped);
+
+            return mapped;
+
+        }catch(err){
+        }
+
+        return;
+    }
+
+    let selected = $state(loadSelectedItems() ?? {
         primary: null,
         secondary: null,
         grenade: null,
@@ -48,7 +65,7 @@
         booster: null
     });
 
-    let locked = $state({
+    let locked = $state(data.lockedItems ?? {
         primary: false,
         secondary: false,
         grenade: false,
@@ -59,22 +76,37 @@
         booster: false
     });
 
-    function toggleLock(slot) {
-        locked[slot] = !locked[slot];
+    function saveSelectedItems(){
+        const selectedItems = encodeURIComponent(JSON.stringify(_.mapValues(selected, "id")));
+        document.cookie = `selectedItems=${selectedItems}; path=/; max-age=31536000`;
+    }
+    
+    function saveLockedItems(){
+        const lockedItems = encodeURIComponent(JSON.stringify(locked));
+        document.cookie = `lockedItems=${lockedItems}; path=/; max-age=31536000`;
     }
 
-    function reroll(slot) {
+    function toggleLock(slot) {
+        locked[slot] = !locked[slot];
+        saveLockedItems();
+    }
+
+    function reroll(slot, save=true) {
         if (locked[slot]) return;
         selected[slot] = pickRandom(available[slot.split("_")[0]].filter(p => p.checked));
+
+        if(!save) return;
+        saveSelectedItems();
     }
 
     function rerollAll() {
-        Object.keys(selected).forEach(reroll);
+        Object.keys(selected).forEach(p => reroll(p, false));
+        saveSelectedItems();
     }
 
-    onMount(() => {
+    if(!data.selectedItems || !data.lockedItems){
         rerollAll();
-    });
+    }
 </script>
 
 {#snippet ContainerHeader(slot, customTitle = null)}
@@ -107,13 +139,13 @@
                 <p>Loading...</p>
             {/if}
         </button>
-        <div class="absolute top-2 right-2 cursor-pointer" title="Tap to lock this item from re-rolling" onclick={() => toggleLock(slot)}>
+        <button class="absolute top-2 right-2 cursor-pointer" title="Tap to lock this item from re-rolling" onclick={() => toggleLock(slot)}>
             {#if locked[slot]}
                 <IconLockClosed />
             {:else}
                 <IconLockOpen />
             {/if}
-        </div>
+        </button>
     </div>
 {/snippet}
 

@@ -40,7 +40,6 @@
             .map(w => w.id)
             .value();
         const value = encodeURIComponent(JSON.stringify(checkedUrls));
-        console.log(checkedUrls.length + "; " + value.length);
         document.cookie = `checkedWeapons=${value}; path=/; max-age=31536000`;
     }
 

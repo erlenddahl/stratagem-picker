@@ -7,11 +7,6 @@
 
     let { data } = $props();
 
-    /*
-     - Create readmes
-     - Add favicon
-    */
-
     const weapons = data.weapons;
 
     function filterByCategory(category) {

@@ -1,4 +1,4 @@
-export async function load({ fetch, cookies }) {
+export async function loadWeapons(fetch, cookies){
     const res = await fetch('/helldivers_weapons.json');
     const weapons = await res.json();
 
@@ -6,14 +6,18 @@ export async function load({ fetch, cookies }) {
 
     try {
         const cookie = cookies.get('checkedWeapons');
-        checkedUrls = cookie ? JSON.parse(cookie) : [];
+        if(cookie){
+            checkedUrls = cookie ? JSON.parse(cookie) : [];
+        }else{
+            checkedUrls = null;
+        }
     } catch {
         // ignore bad JSON
     }
 
-    const urlSet = new Set(checkedUrls);
+    const urlSet = new Set(checkedUrls ?? []);
     weapons.forEach(w => {
-        w.checked = urlSet.has(w.id);
+        w.checked = checkedUrls == null || urlSet.has(w.id);
     });
   
     return { 

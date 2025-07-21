@@ -177,6 +177,13 @@
             <IconList class="inline-block mr-1 text-2xl" /> Select available items
         </a>
     </div>
+
+    <!-- Make the browser pre-load all images so that updates are instant when re-rolling. -->
+    <div class="hidden">
+        {#each weapons.filter(p => p.checked) as weapon}
+            <img src={weapon.icon_file} alt={weapon.name} width="1" height="1" loading="eager" />
+        {/each}
+    </div>
 </div>
 
 <style>

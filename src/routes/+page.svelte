@@ -7,6 +7,12 @@
 
     let { data } = $props();
 
+    /*
+     - If cookie does not exist, check all weapons.
+     - Create readmes
+     - Add favicon
+    */
+
     const weapons = data.weapons;
 
     function filterByCategory(category) {

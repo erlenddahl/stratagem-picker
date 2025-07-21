@@ -1,0 +1,3120 @@
+[
+  {
+    "id": 0,
+    "name": "MG-43 Machine Gun",
+    "icon_url": "https://helldivers.wiki.gg/images/e/e0/Machine_Gun_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\MG-43_Machine_Gun.png",
+    "thumb_file": "thumbs\\MG-43_Machine_Gun.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/MG-43_Machine_Gun",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Medium Armor Penetrating",
+        "Stationary Reload"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Heavy Weapons",
+      "penetration": "Medium",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 1,
+    "name": "APW-1 Anti-Materiel Rifle",
+    "icon_url": "https://helldivers.wiki.gg/images/3/3c/Anti-Materiel_Rifle_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\APW-1_Anti-Materiel_Rifle.png",
+    "thumb_file": "thumbs\\APW-1_Anti-Materiel_Rifle.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/APW-1_Anti-Materiel_Rifle",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Heavy Armor Penetrating"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Anti-Armor Precision",
+      "penetration": "Heavy",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 2,
+    "name": "M-105 Stalwart",
+    "icon_url": "https://helldivers.wiki.gg/images/4/46/Stalwart_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\M-105_Stalwart.png",
+    "thumb_file": "thumbs\\M-105_Stalwart.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/M-105_Stalwart",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Light Armor Penetrating"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Heavy Weapons",
+      "penetration": "Light",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 3,
+    "name": "EAT-17 Expendable Anti-Tank",
+    "icon_url": "https://helldivers.wiki.gg/images/1/1c/Expendable_Anti-Tank_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\EAT-17_Expendable_Anti-Tank.png",
+    "thumb_file": "thumbs\\EAT-17_Expendable_Anti-Tank.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/EAT-17_Expendable_Anti-Tank",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Explosive",
+        "Anti-Tank",
+        "Expendable"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Missiles",
+      "penetration": "Anti-Tank II",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 4,
+    "name": "GR-8 Recoilless Rifle",
+    "icon_url": "https://helldivers.wiki.gg/images/7/70/Recoilless_Rifle_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\GR-8_Recoilless_Rifle.png",
+    "thumb_file": "thumbs\\GR-8_Recoilless_Rifle.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/GR-8_Recoilless_Rifle",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Backpack",
+        "Anti-Tank",
+        "Stationary Reload"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Missiles",
+      "penetration": "Anti-Tank II (HEAT) Medium Anti-Tank I (HE) Heavy",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 5,
+    "name": "FLAM-40 Flamethrower",
+    "icon_url": "https://helldivers.wiki.gg/images/7/75/Flamethrower_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\FLAM-40_Flamethrower.png",
+    "thumb_file": "thumbs\\FLAM-40_Flamethrower.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/FLAM-40_Flamethrower",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Incendiary"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Heavy Weapons",
+      "penetration": "Heavy",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 6,
+    "name": "AC-8 Autocannon",
+    "icon_url": "https://helldivers.wiki.gg/images/e/ef/Autocannon_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\AC-8_Autocannon.png",
+    "thumb_file": "thumbs\\AC-8_Autocannon.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Backpack",
+        "Heavy Armor Penetrating",
+        "Stationary Reload"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Heavy Explosives",
+      "penetration": "Heavy",
+      "permit_type": "Support"
+    }
+  },
+  {
+    "id": 7,
+    "name": "MG-206 Heavy Machine Gun",
+    "icon_url": "https://helldivers.wiki.gg/images/d/d9/Heavy_Machine_Gun_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\MG-206_Heavy_Machine_Gun.png",
+    "thumb_file": "thumbs\\MG-206_Heavy_Machine_Gun.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/MG-206_Heavy_Machine_Gun",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Heavy Armor Penetrating",
+        "Stationary Reload"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Heavy Weapons",
+      "penetration": "Heavy",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 8,
+    "name": "RL-77 Airburst Rocket Launcher",
+    "icon_url": "https://helldivers.wiki.gg/images/a/ad/RL-77_Airburst_Rocket_Launcher_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\RL-77_Airburst_Rocket_Launcher.png",
+    "thumb_file": "thumbs\\RL-77_Airburst_Rocket_Launcher.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/RL-77_Airburst_Rocket_Launcher",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Backpack",
+        "Medium Armor Penetrating",
+        "Stationary Relaod"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Rocket Launcher",
+      "penetration": "Medium",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 9,
+    "name": "MLS-4X Commando",
+    "icon_url": "https://helldivers.wiki.gg/images/7/78/Commando_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\MLS-4X_Commando.png",
+    "thumb_file": "thumbs\\MLS-4X_Commando.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/MLS-4X_Commando",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Anti-Tank",
+        "Expendable"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Missiles",
+      "penetration": "Anti-Tank II",
+      "source": "Patriotic Administration Center",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 10,
+    "name": "RS-422 Railgun",
+    "icon_url": "https://helldivers.wiki.gg/images/3/35/Railgun_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\RS-422_Railgun.png",
+    "thumb_file": "thumbs\\RS-422_Railgun.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/RS-422_Railgun",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Anti-Tank",
+        "Chargeup"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Anti-Armor Precision",
+      "penetration": "Anti-Tank I",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 11,
+    "name": "FAF-14 Spear",
+    "icon_url": "https://helldivers.wiki.gg/images/5/54/Spear_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\FAF-14_Spear.png",
+    "thumb_file": "thumbs\\FAF-14_Spear.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/FAF-14_Spear",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Backpack",
+        "Anti-Tank",
+        "Stationary Reload"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Missiles",
+      "penetration": "Anti-Tank III",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 12,
+    "name": "StA-X3 W.A.S.P. Launcher",
+    "icon_url": "https://helldivers.wiki.gg/images/a/af/StA-X3_W.A.S.P._Launcher_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\StA-X3_W.A.S.P._Launcher.png",
+    "thumb_file": "thumbs\\StA-X3_W.A.S.P._Launcher.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/StA-X3_W.A.S.P._Launcher",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Anti-Tank",
+        "Backpack",
+        "Stationary Reload"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Missiles",
+      "penetration": "Anti-Tank II",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Orbital Gatling Barrage",
+    "icon_url": "https://helldivers.wiki.gg/images/f/f6/Orbital_Gatling_Barrage_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_Gatling_Barrage.png",
+    "thumb_file": "thumbs\\Orbital_Gatling_Barrage.png",
+    "warbond": "Orbital Cannons",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_Gatling_Barrage",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Orbital",
+        "Heavy Armor Penetrating"
+      ],
+      "ship_module": "Orbital Cannons",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Orbital Airburst Strike",
+    "icon_url": "https://helldivers.wiki.gg/images/2/28/Orbital_Airburst_Strike_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_Airburst_Strike.png",
+    "thumb_file": "thumbs\\Orbital_Airburst_Strike.png",
+    "warbond": "Orbital Cannons",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_Airburst_Strike",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Orbital",
+        "Medium Armor Pentrating"
+      ],
+      "ship_module": "Orbital Cannons",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Orbital 120mm HE Barrage",
+    "icon_url": "https://helldivers.wiki.gg/images/4/40/Orbital_120mm_HE_Barrage_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_120mm_HE_Barrage.png",
+    "thumb_file": "thumbs\\Orbital_120mm_HE_Barrage.png",
+    "warbond": "Orbital Cannons",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_120mm_HE_Barrage",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Orbital",
+        "Anti-Tank"
+      ],
+      "ship_module": "Orbital Cannons",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Orbital 380mm HE Barrage",
+    "icon_url": "https://helldivers.wiki.gg/images/1/12/Orbital_380mm_HE_Barrage_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_380mm_HE_Barrage.png",
+    "thumb_file": "thumbs\\Orbital_380mm_HE_Barrage.png",
+    "warbond": "Orbital Cannons",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_380mm_HE_Barrage",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Orbital",
+        "Anti-Tank"
+      ],
+      "ship_module": "Orbital Cannons",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Orbital Walking Barrage",
+    "icon_url": "https://helldivers.wiki.gg/images/5/53/Orbital_Walking_Barrage_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_Walking_Barrage.png",
+    "thumb_file": "thumbs\\Orbital_Walking_Barrage.png",
+    "warbond": "Orbital Cannons",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_Walking_Barrage",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Orbital",
+        "Anti-Tank"
+      ],
+      "ship_module": "Orbital Cannons",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Orbital Laser",
+    "icon_url": "https://helldivers.wiki.gg/images/d/d8/Orbital_Laser_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_Laser.png",
+    "thumb_file": "thumbs\\Orbital_Laser.png",
+    "warbond": "Orbital Cannons",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_Laser",
+    "extra": {
+      "traits": [
+        "Orbital",
+        "Anti-Tank",
+        "Beam"
+      ],
+      "ship_module": "Orbital Cannons",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Orbital Napalm Barrage",
+    "icon_url": "https://helldivers.wiki.gg/images/9/97/Orbital_Napalm_Barrage_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_Napalm_Barrage.png",
+    "thumb_file": "thumbs\\Orbital_Napalm_Barrage.png",
+    "warbond": "Orbital Cannons",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_Napalm_Barrage",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Orbital",
+        "Incendiary"
+      ],
+      "ship_module": "Orbital Cannons",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Orbital Railcannon Strike",
+    "icon_url": "https://helldivers.wiki.gg/images/6/6f/Orbital_Railcannon_Strike_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_Railcannon_Strike.png",
+    "thumb_file": "thumbs\\Orbital_Railcannon_Strike.png",
+    "warbond": "Orbital Cannons",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_Railcannon_Strike",
+    "extra": {
+      "traits": [
+        "Orbital",
+        "Anti-Tank"
+      ],
+      "ship_module": "Orbital Cannons",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Eagle Strafing Run",
+    "icon_url": "https://helldivers.wiki.gg/images/f/f3/Eagle_Strafing_Run_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Eagle_Strafing_Run.png",
+    "thumb_file": "thumbs\\Eagle_Strafing_Run.png",
+    "warbond": "Hangar",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Eagle_Strafing_Run",
+    "extra": {
+      "traits": [
+        "Eagle",
+        "Heavy Armor Penetrating"
+      ],
+      "ship_module": "Hangar",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Eagle Airstrike",
+    "icon_url": "https://helldivers.wiki.gg/images/7/72/Eagle_Airstrike_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Eagle_Airstrike.png",
+    "thumb_file": "thumbs\\Eagle_Airstrike.png",
+    "warbond": "Hangar",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Eagle_Airstrike",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Eagle",
+        "Anti-Tank"
+      ],
+      "ship_module": "Hangar",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Eagle Cluster Bomb",
+    "icon_url": "https://helldivers.wiki.gg/images/4/4f/Eagle_Cluster_Bomb_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Eagle_Cluster_Bomb.png",
+    "thumb_file": "thumbs\\Eagle_Cluster_Bomb.png",
+    "warbond": "Hangar",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Eagle_Cluster_Bomb",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Eagle",
+        "Medium Armor Penetrating"
+      ],
+      "ship_module": "Hangar",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Eagle Napalm Airstrike",
+    "icon_url": "https://helldivers.wiki.gg/images/4/42/Eagle_Napalm_Airstrike_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Eagle_Napalm_Airstrike.png",
+    "thumb_file": "thumbs\\Eagle_Napalm_Airstrike.png",
+    "warbond": "Hangar",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Eagle_Napalm_Airstrike",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Eagle",
+        "Incendiary"
+      ],
+      "ship_module": "Hangar",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 25,
+    "name": "LIFT-850 Jump Pack",
+    "icon_url": "https://helldivers.wiki.gg/images/f/f5/Jump_Pack_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\LIFT-850_Jump_Pack.png",
+    "thumb_file": "thumbs\\LIFT-850_Jump_Pack.png",
+    "warbond": "Hangar",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/LIFT-850_Jump_Pack",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Backpack"
+      ],
+      "ship_module": "Hangar",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Eagle Smoke Strike",
+    "icon_url": "https://helldivers.wiki.gg/images/0/05/Eagle_Smoke_Strike_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Eagle_Smoke_Strike.png",
+    "thumb_file": "thumbs\\Eagle_Smoke_Strike.png",
+    "warbond": "Hangar",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Eagle_Smoke_Strike",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Eagle"
+      ],
+      "ship_module": "Hangar",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Eagle 110mm Rocket Pods",
+    "icon_url": "https://helldivers.wiki.gg/images/e/ef/Eagle_110mm_Rocket_Pods_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Eagle_110mm_Rocket_Pods.png",
+    "thumb_file": "thumbs\\Eagle_110mm_Rocket_Pods.png",
+    "warbond": "Hangar",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Eagle_110mm_Rocket_Pods",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Eagle",
+        "Anti-Tank"
+      ],
+      "ship_module": "Hangar",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Eagle 500kg Bomb",
+    "icon_url": "https://helldivers.wiki.gg/images/e/e5/Eagle_500kg_Bomb_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Eagle_500kg_Bomb.png",
+    "thumb_file": "thumbs\\Eagle_500kg_Bomb.png",
+    "warbond": "Hangar",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Eagle_500kg_Bomb",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Eagle",
+        "Anti-Tank"
+      ],
+      "ship_module": "Hangar",
+      "permit_type": "Offense"
+    }
+  },
+  {
+    "id": 29,
+    "name": "M-102 Fast Recon Vehicle",
+    "icon_url": "https://helldivers.wiki.gg/images/0/00/M-102_Fast_Recon_Vehicle_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\M-102_Fast_Recon_Vehicle.png",
+    "thumb_file": "thumbs\\M-102_Fast_Recon_Vehicle.png",
+    "warbond": "Hangar",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/M-102_Fast_Recon_Vehicle",
+    "extra": {
+      "traits": [
+        "Vehicle",
+        "Heavy Armor Penetrating"
+      ],
+      "ship_module": "Hangar",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Orbital Precision Strike",
+    "icon_url": "https://helldivers.wiki.gg/images/2/2a/Orbital_Precision_Strike_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_Precision_Strike.png",
+    "thumb_file": "thumbs\\Orbital_Precision_Strike.png",
+    "warbond": "Bridge",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Orbital",
+        "Anti-Tank"
+      ],
+      "ship_module": "Bridge",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Orbital Gas Strike",
+    "icon_url": "https://helldivers.wiki.gg/images/c/cd/Orbital_Gas_Strike_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_Gas_Strike.png",
+    "thumb_file": "thumbs\\Orbital_Gas_Strike.png",
+    "warbond": "Bridge",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_Gas_Strike",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Orbital",
+        "Caustic"
+      ],
+      "ship_module": "Bridge",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Orbital EMS Strike",
+    "icon_url": "https://helldivers.wiki.gg/images/1/16/Orbital_EMS_Strike_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_EMS_Strike.png",
+    "thumb_file": "thumbs\\Orbital_EMS_Strike.png",
+    "warbond": "Bridge",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_EMS_Strike",
+    "extra": {
+      "traits": [
+        "Orbital"
+      ],
+      "ship_module": "Bridge",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Orbital Smoke Strike",
+    "icon_url": "https://helldivers.wiki.gg/images/b/bc/Orbital_Smoke_Strike_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\Orbital_Smoke_Strike.png",
+    "thumb_file": "thumbs\\Orbital_Smoke_Strike.png",
+    "warbond": "Bridge",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Orbital_Smoke_Strike",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Orbital"
+      ],
+      "ship_module": "Bridge",
+      "permit_type": "Offensive"
+    }
+  },
+  {
+    "id": 34,
+    "name": "E/MG-101 HMG Emplacement",
+    "icon_url": "https://helldivers.wiki.gg/images/0/03/HMG_Emplacement_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\E_MG-101_HMG_Emplacement.png",
+    "thumb_file": "thumbs\\E_MG-101_HMG_Emplacement.png",
+    "warbond": "Bridge",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/E/MG-101_HMG_Emplacement",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Heavy Armor Penetrating"
+      ],
+      "ship_module": "Bridge",
+      "weapon_category": "Emplacement",
+      "weapon_type": "Heavy Weapon",
+      "penetration": "Heavy",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 35,
+    "name": "FX-12 Shield Generator Relay",
+    "icon_url": "https://helldivers.wiki.gg/images/e/e4/Shield_Generator_Relay_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\FX-12_Shield_Generator_Relay.png",
+    "thumb_file": "thumbs\\FX-12_Shield_Generator_Relay.png",
+    "warbond": "Bridge",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/FX-12_Shield_Generator_Relay",
+    "extra": {
+      "traits": [
+        "Hellpod"
+      ],
+      "ship_module": "Bridge",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 36,
+    "name": "A/ARC-3 Tesla Tower",
+    "icon_url": "https://helldivers.wiki.gg/images/8/8f/Tesla_Tower_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\A_ARC-3_Tesla_Tower.png",
+    "thumb_file": "thumbs\\A_ARC-3_Tesla_Tower.png",
+    "warbond": "Bridge",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/A/ARC-3_Tesla_Tower",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Sentry"
+      ],
+      "ship_module": "Bridge",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 37,
+    "name": "E/GL-21 Grenadier Battlement",
+    "icon_url": "https://helldivers.wiki.gg/images/3/3f/GL-21_Grenadier_Battlement_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\E_GL-21_Grenadier_Battlement.png",
+    "thumb_file": "thumbs\\E_GL-21_Grenadier_Battlement.png",
+    "warbond": "Bridge",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/E/GL-21_Grenadier_Battlement",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Explosive",
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Emplacement",
+      "weapon_type": "Heavy Explosives",
+      "penetration": "Medium",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 38,
+    "name": "MD-6 Anti-Personnel Minefield",
+    "icon_url": "https://helldivers.wiki.gg/images/b/bb/Anti-Personnel_Minefield_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\MD-6_Anti-Personnel_Minefield.png",
+    "thumb_file": "thumbs\\MD-6_Anti-Personnel_Minefield.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/MD-6_Anti-Personnel_Minefield",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Explosive",
+        "Medium Armor Penetrating"
+      ],
+      "ship_module": "Engineering Bay",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 39,
+    "name": "B-1 Supply Pack",
+    "icon_url": "https://helldivers.wiki.gg/images/6/61/Supply_Pack_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\B-1_Supply_Pack.png",
+    "thumb_file": "thumbs\\B-1_Supply_Pack.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/B-1_Supply_Pack",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Backpack"
+      ],
+      "ship_module": "Engineering Bay",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 40,
+    "name": "GL-21 Grenade Launcher",
+    "icon_url": "https://helldivers.wiki.gg/images/c/cf/Grenade_Launcher_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\GL-21_Grenade_Launcher.png",
+    "thumb_file": "thumbs\\GL-21_Grenade_Launcher.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/GL-21_Grenade_Launcher",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Explosive",
+        "Medium Armor Penetrating"
+      ],
+      "ship_module": "Engineering Bay",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Heavy Explosives",
+      "penetration": "Medium",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 41,
+    "name": "LAS-98 Laser Cannon",
+    "icon_url": "https://helldivers.wiki.gg/images/c/c3/Laser_Cannon_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\LAS-98_Laser_Cannon.png",
+    "thumb_file": "thumbs\\LAS-98_Laser_Cannon.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/LAS-98_Laser_Cannon",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Heavy Armor Penetrating",
+        "Heat",
+        "Beam"
+      ],
+      "ship_module": "Engineering Bay",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Heavy Energy-Based",
+      "penetration": "Heavy",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 42,
+    "name": "MD-I4 Incendiary Mines",
+    "icon_url": "https://helldivers.wiki.gg/images/4/40/Incendiary_Mines_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\MD-I4_Incendiary_Mines.png",
+    "thumb_file": "thumbs\\MD-I4_Incendiary_Mines.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/MD-I4_Incendiary_Mines",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Explosive",
+        "Incendiary"
+      ],
+      "ship_module": "Engineering Bay",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 43,
+    "name": "AX/LAS-5 \"Guard Dog\" Rover",
+    "icon_url": "https://helldivers.wiki.gg/images/6/6f/Guard_Dog_Rover_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\AX_LAS-5__Guard_Dog__Rover.png",
+    "thumb_file": "thumbs\\AX_LAS-5__Guard_Dog__Rover.png",
+    "warbond": "Robotics Workshop",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AX/LAS-5_%22Guard_Dog%22_Rover",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Backpack"
+      ],
+      "ship_module": "Robotics Workshop",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 44,
+    "name": "SH-20 Ballistic Shield Backpack",
+    "icon_url": "https://helldivers.wiki.gg/images/3/37/Ballistic_Shield_Backpack_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\SH-20_Ballistic_Shield_Backpack.png",
+    "thumb_file": "thumbs\\SH-20_Ballistic_Shield_Backpack.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SH-20_Ballistic_Shield_Backpack",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Backpack"
+      ],
+      "ship_module": "Engineering Bay",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 45,
+    "name": "ARC-3 Arc Thrower",
+    "icon_url": "https://helldivers.wiki.gg/images/1/10/Arc_Thrower_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\ARC-3_Arc_Thrower.png",
+    "thumb_file": "thumbs\\ARC-3_Arc_Thrower.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/ARC-3_Arc_Thrower",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Chargeup"
+      ],
+      "ship_module": "Engineering Bay",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Heavy Energy-Based",
+      "penetration": "Anti-Tank III",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 46,
+    "name": "MD-17 Anti-Tank Mines",
+    "icon_url": "https://helldivers.wiki.gg/images/b/ba/MD-17_Anti-Tank_Mines_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\MD-17_Anti-Tank_Mines.png",
+    "thumb_file": "thumbs\\MD-17_Anti-Tank_Mines.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/MD-17_Anti-Tank_Mines",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Explosive",
+        "Anti-Tank"
+      ],
+      "ship_module": "Engineering Bay",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 47,
+    "name": "LAS-99 Quasar Cannon",
+    "icon_url": "https://helldivers.wiki.gg/images/8/87/Quasar_Cannon_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\LAS-99_Quasar_Cannon.png",
+    "thumb_file": "thumbs\\LAS-99_Quasar_Cannon.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/LAS-99_Quasar_Cannon",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Anti-Tank",
+        "Chargeup"
+      ],
+      "ship_module": "Engineering Bay",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Heavy Energy-Based",
+      "penetration": "Anti-Tank II",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 48,
+    "name": "SH-32 Shield Generator Pack",
+    "icon_url": "https://helldivers.wiki.gg/images/9/99/Shield_Generator_Pack_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\SH-32_Shield_Generator_Pack.png",
+    "thumb_file": "thumbs\\SH-32_Shield_Generator_Pack.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SH-32_Shield_Generator_Pack",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Backpack"
+      ],
+      "ship_module": "Engineering Bay",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 49,
+    "name": "MD-8 Gas Mines",
+    "icon_url": "https://helldivers.wiki.gg/images/1/13/Gas_Minefield_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\MD-8_Gas_Mines.png",
+    "thumb_file": "thumbs\\MD-8_Gas_Mines.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/MD-8_Gas_Mines",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Explosive",
+        "Caustic"
+      ],
+      "ship_module": "Engineering Bay",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 50,
+    "name": "A/MG-43 Machine Gun Sentry",
+    "icon_url": "https://helldivers.wiki.gg/images/5/5a/Machine_Gun_Sentry_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\A_MG-43_Machine_Gun_Sentry.png",
+    "thumb_file": "thumbs\\A_MG-43_Machine_Gun_Sentry.png",
+    "warbond": "Robotics Workshop",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/A/MG-43_Machine_Gun_Sentry",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Sentry",
+        "Medium Armor Penetrating"
+      ],
+      "ship_module": "Robotics Workshop",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 51,
+    "name": "A/G-16 Gatling Sentry",
+    "icon_url": "https://helldivers.wiki.gg/images/2/28/Gatling_Sentry_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\A_G-16_Gatling_Sentry.png",
+    "thumb_file": "thumbs\\A_G-16_Gatling_Sentry.png",
+    "warbond": "Robotics Workshop",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/A/G-16_Gatling_Sentry",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Sentry",
+        "Medium Armor Pentrating"
+      ],
+      "ship_module": "Robotics Workshop",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 52,
+    "name": "A/M-12 Mortar Sentry",
+    "icon_url": "https://helldivers.wiki.gg/images/a/ad/Mortar_Sentry_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\A_M-12_Mortar_Sentry.png",
+    "thumb_file": "thumbs\\A_M-12_Mortar_Sentry.png",
+    "warbond": "Robotics Workshop",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/A/M-12_Mortar_Sentry",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Explosive",
+        "Sentry",
+        "Medium Armor Penetrating"
+      ],
+      "ship_module": "Robotics Workshop",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 53,
+    "name": "AX/AR-23 \"Guard Dog\"",
+    "icon_url": "https://helldivers.wiki.gg/images/7/73/Guard_Dog_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\AX_AR-23__Guard_Dog_.png",
+    "thumb_file": "thumbs\\AX_AR-23__Guard_Dog_.png",
+    "warbond": "Engineering Bay",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AX/AR-23_%22Guard_Dog%22",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Backpack"
+      ],
+      "ship_module": "Engineering Bay",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 54,
+    "name": "A/AC-8 Autocannon Sentry",
+    "icon_url": "https://helldivers.wiki.gg/images/a/a7/Autocannon_Sentry_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\A_AC-8_Autocannon_Sentry.png",
+    "thumb_file": "thumbs\\A_AC-8_Autocannon_Sentry.png",
+    "warbond": "Robotics Workshop",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/A/AC-8_Autocannon_Sentry",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Sentry",
+        "Anti-Tank"
+      ],
+      "ship_module": "Robotics Workshop",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 55,
+    "name": "A/MLS-4X Rocket Sentry",
+    "icon_url": "https://helldivers.wiki.gg/images/6/62/Rocket_Sentry_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\A_MLS-4X_Rocket_Sentry.png",
+    "thumb_file": "thumbs\\A_MLS-4X_Rocket_Sentry.png",
+    "warbond": "Robotics Workshop",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/A/MLS-4X_Rocket_Sentry",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Explosive",
+        "Sentry",
+        "Anti-Tank"
+      ],
+      "ship_module": "Robotics Workshop",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 56,
+    "name": "A/M-23 EMS Mortar Sentry",
+    "icon_url": "https://helldivers.wiki.gg/images/a/a8/AM-23_EMS_Mortar_Sentry_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\A_M-23_EMS_Mortar_Sentry.png",
+    "thumb_file": "thumbs\\A_M-23_EMS_Mortar_Sentry.png",
+    "warbond": "Robotics Workshop",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/A/M-23_EMS_Mortar_Sentry",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Explosive",
+        "Sentry"
+      ],
+      "ship_module": "Robotics Workshop",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 57,
+    "name": "EXO-45 Patriot Exosuit",
+    "icon_url": "https://helldivers.wiki.gg/images/3/30/EXO-45_Patriot_Exosuit_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\EXO-45_Patriot_Exosuit.png",
+    "thumb_file": "thumbs\\EXO-45_Patriot_Exosuit.png",
+    "warbond": "Robotics Workshop",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/EXO-45_Patriot_Exosuit",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Vehicle",
+        "Anti-Tank",
+        "Medium Armor Penetrating"
+      ],
+      "ship_module": "Robotics Workshop",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 58,
+    "name": "EXO-49 Emancipator Exosuit",
+    "icon_url": "https://helldivers.wiki.gg/images/8/82/EXO-49_Emancipator_Exosuit_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\EXO-49_Emancipator_Exosuit.png",
+    "thumb_file": "thumbs\\EXO-49_Emancipator_Exosuit.png",
+    "warbond": "Robotics Workshop",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/EXO-49_Emancipator_Exosuit",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Vehicle",
+        "Anti-Tank"
+      ],
+      "ship_module": "Robotics Workshop",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 59,
+    "name": "TX-41 Sterilizer",
+    "icon_url": "https://helldivers.wiki.gg/images/2/29/Sterilizer_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\TX-41_Sterilizer.png",
+    "thumb_file": "thumbs\\TX-41_Sterilizer.png",
+    "warbond": "Chemical Agents",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/TX-41_Sterilizer",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Caustic"
+      ],
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Heavy Weapons",
+      "penetration": "Tank I",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 60,
+    "name": "AX/TX-13 \"Guard Dog\" Dog Breath",
+    "icon_url": "https://helldivers.wiki.gg/images/2/20/Guard_Dog_Dog_Breath_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\AX_TX-13__Guard_Dog__Dog_Breath.png",
+    "thumb_file": "thumbs\\AX_TX-13__Guard_Dog__Dog_Breath.png",
+    "warbond": "Chemical Agents",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AX/TX-13_%22Guard_Dog%22_Dog_Breath",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Backpack",
+        "Caustic"
+      ],
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 61,
+    "name": "SH-51 Directional Shield",
+    "icon_url": "https://helldivers.wiki.gg/images/b/b7/SH-51_Directional_Shield_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\SH-51_Directional_Shield.png",
+    "thumb_file": "thumbs\\SH-51_Directional_Shield.png",
+    "warbond": "Urban Legends",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SH-51_Directional_Shield",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Backpack"
+      ],
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 62,
+    "name": "E/AT-12 Anti-Tank Emplacement",
+    "icon_url": "https://helldivers.wiki.gg/images/6/62/E_AT-12_Anti-Tank_Emplacement_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\E_AT-12_Anti-Tank_Emplacement.png",
+    "thumb_file": "thumbs\\E_AT-12_Anti-Tank_Emplacement.png",
+    "warbond": "Urban Legends",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/E/AT-12_Anti-Tank_Emplacement",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Heavy Armour Penetrating"
+      ],
+      "weapon_category": "Emplacement",
+      "weapon_type": "Anti-Tank",
+      "penetration": "Anti-Tank II",
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 63,
+    "name": "A/FLAM-40 Flame Sentry",
+    "icon_url": "https://helldivers.wiki.gg/images/0/0e/A_FLAM-40_Flame_Sentry_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\A_FLAM-40_Flame_Sentry.png",
+    "thumb_file": "thumbs\\A_FLAM-40_Flame_Sentry.png",
+    "warbond": "Urban Legends",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/A/FLAM-40_Flame_Sentry",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Incendiary",
+        "Sentry"
+      ],
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 64,
+    "name": "B-100 Portable Hellbomb",
+    "icon_url": "https://helldivers.wiki.gg/images/a/aa/Portable_Hellbomb_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\B-100_Portable_Hellbomb.png",
+    "thumb_file": "thumbs\\B-100_Portable_Hellbomb.png",
+    "warbond": "Servants of Freedom",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/B-100_Portable_Hellbomb",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Explosive",
+        "Backpack",
+        "Anti-Tank"
+      ],
+      "permit_type": "Backpack"
+    }
+  },
+  {
+    "id": 65,
+    "name": "LIFT-860 Hover Pack",
+    "icon_url": "https://helldivers.wiki.gg/images/5/5d/Hover_Pack_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\LIFT-860_Hover_Pack.png",
+    "thumb_file": "thumbs\\LIFT-860_Hover_Pack.png",
+    "warbond": "Borderline Justice",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/LIFT-860_Hover_Pack",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Backpack"
+      ],
+      "ship_module": "Hangar",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 66,
+    "name": "CQC-1 One True Flag",
+    "icon_url": "https://helldivers.wiki.gg/images/9/9f/CQC-1_One_True_Flag_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\CQC-1_One_True_Flag.png",
+    "thumb_file": "thumbs\\CQC-1_One_True_Flag.png",
+    "warbond": "Masters of Ceremony",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/CQC-1_One_True_Flag",
+    "extra": {
+      "traits": [
+        "Support Weapons",
+        "Hellpod",
+        "Melee",
+        "One Handed"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Melee",
+      "penetration": "Medium",
+      "source": "Masters of Ceremony , page 3",
+      "permit_type": "Support Weapons"
+    }
+  },
+  {
+    "id": 67,
+    "name": "GL-52 De-Escalator",
+    "icon_url": "https://helldivers.wiki.gg/images/8/87/GL-52_De-Escalator_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\GL-52_De-Escalator.png",
+    "thumb_file": "thumbs\\GL-52_De-Escalator.png",
+    "warbond": "Force of Law",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/GL-52_De-Escalator",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Stun"
+      ],
+      "ship_module": "Engineering Bay",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Stun  •  Tesla",
+      "penetration": "Heavy",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 68,
+    "name": "AX/ARC-3 \"Guard Dog\" K-9",
+    "icon_url": "https://helldivers.wiki.gg/images/c/ca/AX_ARC-3_%22Guard_Dog%22_K-9_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\AX_ARC-3__Guard_Dog__K-9.png",
+    "thumb_file": "thumbs\\AX_ARC-3__Guard_Dog__K-9.png",
+    "warbond": "Force of Law",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AX/ARC-3_%22Guard_Dog%22_K-9",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Backpack",
+        "Stun"
+      ],
+      "ship_module": "Robotics Workshop",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 69,
+    "name": "LIFT-182 Warp Pack",
+    "icon_url": "https://helldivers.wiki.gg/images/2/29/LIFT-182_Warp_Pack_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\LIFT-182_Warp_Pack.png",
+    "thumb_file": "thumbs\\LIFT-182_Warp_Pack.png",
+    "warbond": "Control Group",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/LIFT-182_Warp_Pack",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Backpack"
+      ],
+      "ship_module": "Hangar",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 70,
+    "name": "AR-23 Liberator",
+    "icon_url": "https://helldivers.wiki.gg/images/c/ce/AR-23_Liberator_Primary_Render.png?d01fc9",
+    "icon_file": "images\\AR-23_Liberator.png",
+    "thumb_file": "thumbs\\AR-23_Liberator.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AR-23_Liberator",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Assault Rifles",
+      "penetration": "Light",
+      "source": "Starter Equipment"
+    }
+  },
+  {
+    "id": 71,
+    "name": "AR-23P Liberator Penetrator",
+    "icon_url": "https://helldivers.wiki.gg/images/7/7d/AR-23P_Liberator_Penetrator_Primary_Render.png?3ebac5",
+    "icon_file": "images\\AR-23P_Liberator_Penetrator.png",
+    "thumb_file": "thumbs\\AR-23P_Liberator_Penetrator.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AR-23P_Liberator_Penetrator",
+    "extra": {
+      "traits": [
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Assault Rifles",
+      "penetration": "Medium",
+      "source": "Helldivers Mobilize Warbond , Page 6"
+    }
+  },
+  {
+    "id": 72,
+    "name": "AR-23C Liberator Concussive",
+    "icon_url": "https://helldivers.wiki.gg/images/d/da/AR-23C_Liberator_Concussive_Primary_Render.png?3cc41c",
+    "icon_file": "images\\AR-23C_Liberator_Concussive.png",
+    "thumb_file": "thumbs\\AR-23C_Liberator_Concussive.png",
+    "warbond": "Steeled Veterans",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AR-23C_Liberator_Concussive",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Assault Rifles",
+      "penetration": "Light",
+      "source": "Steeled Veterans"
+    }
+  },
+  {
+    "id": 73,
+    "name": "StA-52 Assault Rifle",
+    "icon_url": "https://helldivers.wiki.gg/images/d/d3/StA-52_Assault_Rifle_Primary_Render.png?7cc49f",
+    "icon_file": "images\\StA-52_Assault_Rifle.png",
+    "thumb_file": "thumbs\\StA-52_Assault_Rifle.png",
+    "warbond": "Other",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/StA-52_Assault_Rifle",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Assault Rifles",
+      "penetration": "Light",
+      "source": "Superstore , Helldivers x Killzone"
+    }
+  },
+  {
+    "id": 74,
+    "name": "AR-32 Pacifier",
+    "icon_url": "https://helldivers.wiki.gg/images/e/e3/AR-32_Pacifier_Primary_Render.png?eb48b4",
+    "icon_file": "images\\AR-32_Pacifier.png",
+    "thumb_file": "thumbs\\AR-32_Pacifier.png",
+    "warbond": "Force of Law",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AR-32_Pacifier",
+    "extra": {
+      "traits": [
+        "Medium Armor Penetrating",
+        "Stun"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Assault Rifle",
+      "penetration": "Medium",
+      "source": "Force of Law"
+    }
+  },
+  {
+    "id": 75,
+    "name": "AR-23A Liberator Carbine",
+    "icon_url": "https://helldivers.wiki.gg/images/e/ea/AR-23A_Liberator_Carbine_Primary_Render.png?485f5a",
+    "icon_file": "images\\AR-23A_Liberator_Carbine.png",
+    "thumb_file": "thumbs\\AR-23A_Liberator_Carbine.png",
+    "warbond": "Viper Commandos",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AR-23A_Liberator_Carbine",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Assault Rifles",
+      "penetration": "Light",
+      "source": "Viper Commandos Premium Warbond , Page 1"
+    }
+  },
+  {
+    "id": 76,
+    "name": "AR-61 Tenderizer",
+    "icon_url": "https://helldivers.wiki.gg/images/7/7e/AR-61_Tenderizer_Primary_Render.png?ac7e26",
+    "icon_file": "images\\AR-61_Tenderizer.png",
+    "thumb_file": "thumbs\\AR-61_Tenderizer.png",
+    "warbond": "Polar Patriots",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AR-61_Tenderizer",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Assault Rifles",
+      "penetration": "Light",
+      "source": "Polar Patriots Premium Warbond"
+    }
+  },
+  {
+    "id": 77,
+    "name": "BR-14 Adjudicator",
+    "icon_url": "https://helldivers.wiki.gg/images/e/e6/BR-14_Adjudicator_Primary_Render.png?dca93f",
+    "icon_file": "images\\BR-14_Adjudicator.png",
+    "thumb_file": "thumbs\\BR-14_Adjudicator.png",
+    "warbond": "Democratic Detonation",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/BR-14_Adjudicator",
+    "extra": {
+      "traits": [
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Assault Rifles",
+      "penetration": "Medium",
+      "source": "Democratic Detonation"
+    }
+  },
+  {
+    "id": 78,
+    "name": "R-2 Amendment",
+    "icon_url": "https://helldivers.wiki.gg/images/a/ab/R-2_Amendment_Primary_Render.png?ef5561",
+    "icon_file": "images\\R-2_Amendment.png",
+    "thumb_file": "thumbs\\R-2_Amendment.png",
+    "warbond": "Masters of Ceremony",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/R-2_Amendment",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Marksman Rifles",
+      "penetration": "Light",
+      "source": "Masters of Ceremony"
+    }
+  },
+  {
+    "id": 79,
+    "name": "R-2124 Constitution",
+    "icon_url": "https://helldivers.wiki.gg/images/5/52/R-2124_Constitution_Primary_Render.png?c81b73",
+    "icon_file": "images\\R-2124_Constitution.png",
+    "thumb_file": "thumbs\\R-2124_Constitution.png",
+    "warbond": "Other",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/R-2124_Constitution",
+    "extra": {
+      "traits": [
+        "Medium Armor Penetrating",
+        "Rounds Reload"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Marksman Rifles",
+      "penetration": "Medium",
+      "source": "Liberty Day"
+    }
+  },
+  {
+    "id": 80,
+    "name": "R-6 Deadeye",
+    "icon_url": "https://helldivers.wiki.gg/images/1/15/R-6_Deadeye_Primary_Render.png?17ff02",
+    "icon_file": "images\\R-6_Deadeye.png",
+    "thumb_file": "thumbs\\R-6_Deadeye.png",
+    "warbond": "Borderline Justice",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/R-6_Deadeye",
+    "extra": {
+      "traits": [
+        "Rounds reload",
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Marksman Rifle",
+      "penetration": "Medium",
+      "source": "Borderline Justice page"
+    }
+  },
+  {
+    "id": 81,
+    "name": "R-63 Diligence",
+    "icon_url": "https://helldivers.wiki.gg/images/3/35/R-63_Diligence_Primary_Render.png?a424e6",
+    "icon_file": "images\\R-63_Diligence.png",
+    "thumb_file": "thumbs\\R-63_Diligence.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/R-63_Diligence",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Marksman Rifles",
+      "penetration": "Light",
+      "source": "Helldivers Mobilize Warbond , Page 2"
+    }
+  },
+  {
+    "id": 82,
+    "name": "R-63CS Diligence Counter Sniper",
+    "icon_url": "https://helldivers.wiki.gg/images/c/c6/R-63CS_Diligence_Counter_Sniper_Primary_Render.png?985173",
+    "icon_file": "images\\R-63CS_Diligence_Counter_Sniper.png",
+    "thumb_file": "thumbs\\R-63CS_Diligence_Counter_Sniper.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
+    "extra": {
+      "traits": [
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Marksman Rifles",
+      "penetration": "Medium",
+      "source": "Helldivers Mobilize Warbond , Page 7"
+    }
+  },
+  {
+    "id": 83,
+    "name": "MP-98 Knight",
+    "icon_url": "https://helldivers.wiki.gg/images/d/df/MP-98_Knight_Primary_Render.png?aeeb08",
+    "icon_file": "images\\MP-98_Knight.png",
+    "thumb_file": "thumbs\\MP-98_Knight.png",
+    "warbond": "Other",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/MP-98_Knight",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "One Handed"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Submachine Guns",
+      "penetration": "Light",
+      "source": "Super Citizen Edition"
+    }
+  },
+  {
+    "id": 84,
+    "name": "StA-11 SMG",
+    "icon_url": "https://helldivers.wiki.gg/images/0/0b/StA-11_SMG_Primary_Render.png?a6774a",
+    "icon_file": "images\\StA-11_SMG.png",
+    "thumb_file": "thumbs\\StA-11_SMG.png",
+    "warbond": "Other",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
+    "extra": {
+      "traits": [
+        "Light Armour Penetrating",
+        "One Handed"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Submachine Guns",
+      "penetration": "Light",
+      "source": "Helldivers x Killzone"
+    }
+  },
+  {
+    "id": 85,
+    "name": "SMG-32 Reprimand",
+    "icon_url": "https://helldivers.wiki.gg/images/8/81/SMG-32_Reprimand_Primary_Render.png?40b9df",
+    "icon_file": "images\\SMG-32_Reprimand.png",
+    "thumb_file": "thumbs\\SMG-32_Reprimand.png",
+    "warbond": "Truth Enforcers",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SMG-32_Reprimand",
+    "extra": {
+      "traits": [
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Submachine Guns",
+      "penetration": "Medium",
+      "source": "Truth Enforcers Premium Warbond , Page 2"
+    }
+  },
+  {
+    "id": 86,
+    "name": "SMG-37 Defender",
+    "icon_url": "https://helldivers.wiki.gg/images/f/f6/SMG-37_Defender_Primary_Render.png?cddd9b",
+    "icon_file": "images\\SMG-37_Defender.png",
+    "thumb_file": "thumbs\\SMG-37_Defender.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SMG-37_Defender",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "One Handed"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Submachine Guns",
+      "penetration": "Light",
+      "source": "Helldivers Mobilize Warbond Page 3"
+    }
+  },
+  {
+    "id": 87,
+    "name": "SMG-72 Pummeler",
+    "icon_url": "https://helldivers.wiki.gg/images/b/bf/SMG-72_Pummeler_Primary_Render.png?bc418c",
+    "icon_file": "images\\SMG-72_Pummeler.png",
+    "thumb_file": "thumbs\\SMG-72_Pummeler.png",
+    "warbond": "Polar Patriots",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SMG-72_Pummeler",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "One Handed"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Submachine Guns",
+      "penetration": "Light",
+      "source": "Polar Patriots Premium Warbond"
+    }
+  },
+  {
+    "id": 88,
+    "name": "SG-8 Punisher",
+    "icon_url": "https://helldivers.wiki.gg/images/5/5d/SG-8_Punisher_Primary_Render.png?b34418",
+    "icon_file": "images\\SG-8_Punisher.png",
+    "thumb_file": "thumbs\\SG-8_Punisher.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SG-8_Punisher",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "Rounds Reload"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Shotguns",
+      "penetration": "Light",
+      "source": "Helldivers Mobilize Warbond , Page 1"
+    }
+  },
+  {
+    "id": 89,
+    "name": "SG-8S Slugger",
+    "icon_url": "https://helldivers.wiki.gg/images/e/e6/SG-8S_Slugger_Primary_Render.png?d2705a",
+    "icon_file": "images\\SG-8S_Slugger.png",
+    "thumb_file": "thumbs\\SG-8S_Slugger.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SG-8S_Slugger",
+    "extra": {
+      "traits": [
+        "Rounds Reload",
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Shotguns",
+      "penetration": "Medium",
+      "source": "Helldivers Mobilize Warbond Page 8"
+    }
+  },
+  {
+    "id": 90,
+    "name": "SG-20 Halt",
+    "icon_url": "https://helldivers.wiki.gg/images/0/01/SG-20_Halt_Primary_Render.png?8e3a01",
+    "icon_file": "images\\SG-20_Halt.png",
+    "thumb_file": "thumbs\\SG-20_Halt.png",
+    "warbond": "Truth Enforcers",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SG-20_Halt",
+    "extra": {
+      "traits": [
+        "",
+        "Light Armor Penetrating",
+        "Medium Armor Penetrating",
+        "Rounds Reload"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Shotguns",
+      "penetration": "Medium (Flechette) Light (Stun)",
+      "source": "Truth Enforcers Premium Warbond"
+    }
+  },
+  {
+    "id": 91,
+    "name": "SG-451 Cookout",
+    "icon_url": "https://helldivers.wiki.gg/images/2/25/SG-451_Cookout_Primary_Render.png?9cefbb",
+    "icon_file": "images\\SG-451_Cookout.png",
+    "thumb_file": "thumbs\\SG-451_Cookout.png",
+    "warbond": "Freedom's Flame",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SG-451_Cookout",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "Rounds Reload",
+        "Incendiary"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Shotguns",
+      "penetration": "Light",
+      "source": "Freedom's Flame Premium Warbond , Page 1"
+    }
+  },
+  {
+    "id": 92,
+    "name": "SG-225 Breaker",
+    "icon_url": "https://helldivers.wiki.gg/images/f/f4/SG-225_Breaker_Primary_Render.png?3f1d6c",
+    "icon_file": "images\\SG-225_Breaker.png",
+    "thumb_file": "thumbs\\SG-225_Breaker.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SG-225_Breaker",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Shotguns",
+      "penetration": "Light",
+      "source": "Helldivers Mobilize Warbond , Page 4"
+    }
+  },
+  {
+    "id": 93,
+    "name": "SG-225SP Breaker Spray&Pray",
+    "icon_url": "https://helldivers.wiki.gg/images/d/dc/SG-225SP_Breaker_Spray%26Pray_Primary_Render.png?4dd775",
+    "icon_file": "images\\SG-225SP_Breaker_Spray&Pray.png",
+    "thumb_file": "thumbs\\SG-225SP_Breaker_Spray&Pray.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray%26Pray",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Shotguns",
+      "penetration": "Light",
+      "source": "Helldivers Mobilize , page 9"
+    }
+  },
+  {
+    "id": 94,
+    "name": "SG-225IE Breaker Incendiary",
+    "icon_url": "https://helldivers.wiki.gg/images/9/92/SG-225IE_Breaker_Incendiary_Primary_Render.png?2a703e",
+    "icon_file": "images\\SG-225IE_Breaker_Incendiary.png",
+    "thumb_file": "thumbs\\SG-225IE_Breaker_Incendiary.png",
+    "warbond": "Steeled Veterans",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SG-225IE_Breaker_Incendiary",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "Incendiary"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Shotguns",
+      "penetration": "Light",
+      "source": "Steeled Veterans , Page 2"
+    }
+  },
+  {
+    "id": 95,
+    "name": "CB-9 Exploding Crossbow",
+    "icon_url": "https://helldivers.wiki.gg/images/2/26/CB-9_Exploding_Crossbow_Primary_Render.png?288f35",
+    "icon_file": "images\\CB-9_Exploding_Crossbow.png",
+    "thumb_file": "thumbs\\CB-9_Exploding_Crossbow.png",
+    "warbond": "Democratic Detonation",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/CB-9_Exploding_Crossbow",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "One Handed"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Explosives",
+      "penetration": "Medium",
+      "source": "Democratic Detonation , page 3"
+    }
+  },
+  {
+    "id": 96,
+    "name": "R-36 Eruptor",
+    "icon_url": "https://helldivers.wiki.gg/images/f/fd/R-36_Eruptor_Primary_Render.png?2efe24",
+    "icon_file": "images\\R-36_Eruptor.png",
+    "thumb_file": "thumbs\\R-36_Eruptor.png",
+    "warbond": "Democratic Detonation",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/R-36_Eruptor",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Heavy Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Explosives",
+      "penetration": "Heavy",
+      "source": "Democratic Detonation , page 2"
+    }
+  },
+  {
+    "id": 97,
+    "name": "SG-8P Punisher Plasma",
+    "icon_url": "https://helldivers.wiki.gg/images/8/87/SG-8P_Punisher_Plasma_Primary_Render.png?ca058e",
+    "icon_file": "images\\SG-8P_Punisher_Plasma.png",
+    "thumb_file": "thumbs\\SG-8P_Punisher_Plasma.png",
+    "warbond": "Cutting Edge",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SG-8P_Punisher_Plasma",
+    "extra": {
+      "traits": [
+        "Explosive"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Energy-Based",
+      "penetration": "Medium",
+      "source": "Cutting Edge , Page 2"
+    }
+  },
+  {
+    "id": 98,
+    "name": "PLAS-39 Accelerator Rifle",
+    "icon_url": "https://helldivers.wiki.gg/images/7/77/PLAS-39_Accelerator_Rifle_Primary_Render.png?3285ee",
+    "icon_file": "images\\PLAS-39_Accelerator_Rifle.png",
+    "thumb_file": "thumbs\\PLAS-39_Accelerator_Rifle.png",
+    "warbond": "Other",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/PLAS-39_Accelerator_Rifle",
+    "extra": {
+      "traits": [
+        "Explosive",
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Energy-Based",
+      "penetration": "Medium"
+    }
+  },
+  {
+    "id": 99,
+    "name": "ARC-12 Blitzer",
+    "icon_url": "https://helldivers.wiki.gg/images/9/9b/ARC-12_Blitzer_Primary_Render.png?fe7205",
+    "icon_file": "images\\ARC-12_Blitzer.png",
+    "thumb_file": "thumbs\\ARC-12_Blitzer.png",
+    "warbond": "Cutting Edge",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/ARC-12_Blitzer",
+    "extra": {
+      "traits": [
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Energy-Based",
+      "penetration": "Medium",
+      "source": "Cutting Edge , page 3"
+    }
+  },
+  {
+    "id": 100,
+    "name": "LAS-5 Scythe",
+    "icon_url": "https://helldivers.wiki.gg/images/a/ad/LAS-5_Scythe_Primary_Render.png?1fd9ac",
+    "icon_file": "images\\LAS-5_Scythe.png",
+    "thumb_file": "thumbs\\LAS-5_Scythe.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/LAS-5_Scythe",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "Beam",
+        "Heat"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Energy-Based",
+      "penetration": "Light",
+      "source": "Helldivers Mobilize , page 5"
+    }
+  },
+  {
+    "id": 101,
+    "name": "LAS-16 Sickle",
+    "icon_url": "https://helldivers.wiki.gg/images/0/07/LAS-16_Sickle_Primary_Render.png?6be379",
+    "icon_file": "images\\LAS-16_Sickle.png",
+    "thumb_file": "thumbs\\LAS-16_Sickle.png",
+    "warbond": "Cutting Edge",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "Heat"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Energy-Based",
+      "penetration": "Light",
+      "source": "Cutting Edge , page 1"
+    }
+  },
+  {
+    "id": 102,
+    "name": "LAS-17 Double-Edge Sickle",
+    "icon_url": "https://helldivers.wiki.gg/images/8/8e/LAS-17_Double-Edge_Sickle_Primary_Render.png?c06ab8",
+    "icon_file": "images\\LAS-17_Double-Edge_Sickle.png",
+    "thumb_file": "thumbs\\LAS-17_Double-Edge_Sickle.png",
+    "warbond": "Servants of Freedom",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/LAS-17_Double-Edge_Sickle",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "Medium Armor Penetrating",
+        "Heavy Armor Penetrating",
+        "Heat"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Energy-Based",
+      "penetration": "Heavy",
+      "source": "Servants of Freedom , page 1"
+    }
+  },
+  {
+    "id": 103,
+    "name": "PLAS-1 Scorcher",
+    "icon_url": "https://helldivers.wiki.gg/images/c/c0/PLAS-1_Scorcher_Primary_Render.png?3f861e",
+    "icon_file": "images\\PLAS-1_Scorcher.png",
+    "thumb_file": "thumbs\\PLAS-1_Scorcher.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/PLAS-1_Scorcher",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "Explosive"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Energy-Based",
+      "penetration": "Light (Projectile) Medium (Explosion}",
+      "source": "Helldivers Mobilize , page 10"
+    }
+  },
+  {
+    "id": 104,
+    "name": "PLAS-101 Purifier",
+    "icon_url": "https://helldivers.wiki.gg/images/e/e5/PLAS-101_Purifier_Primary_Render.png?fff077",
+    "icon_file": "images\\PLAS-101_Purifier.png",
+    "thumb_file": "thumbs\\PLAS-101_Purifier.png",
+    "warbond": "Polar Patriots",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/PLAS-101_Purifier",
+    "extra": {
+      "traits": [
+        "",
+        "Charge Up",
+        "Explosive",
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Energy-Based",
+      "penetration": "Medium",
+      "source": "Polar Patriots , page 3"
+    }
+  },
+  {
+    "id": 105,
+    "name": "VG-70 Variable",
+    "icon_url": "https://helldivers.wiki.gg/images/f/f6/VG-70_Variable_Primary_Render.png?c713da",
+    "icon_file": "images\\VG-70_Variable.png",
+    "thumb_file": "thumbs\\VG-70_Variable.png",
+    "warbond": "Control Group",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/VG-70_Variable",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Special",
+      "penetration": "Light",
+      "source": "Control Group Warbond"
+    }
+  },
+  {
+    "id": 106,
+    "name": "FLAM-66 Torcher",
+    "icon_url": "https://helldivers.wiki.gg/images/3/32/FLAM-66_Torcher_Primary_Render.png?cb48af",
+    "icon_file": "images\\FLAM-66_Torcher.png",
+    "thumb_file": "thumbs\\FLAM-66_Torcher.png",
+    "warbond": "Freedom's Flame",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/FLAM-66_Torcher",
+    "extra": {
+      "traits": [
+        "Incendiary"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Special",
+      "penetration": "Heavy",
+      "source": "Freedom's Flame , page 2"
+    }
+  },
+  {
+    "id": 107,
+    "name": "JAR-5 Dominator",
+    "icon_url": "https://helldivers.wiki.gg/images/c/c8/JAR-5_Dominator_Primary_Render.png?5e5e02",
+    "icon_file": "images\\JAR-5_Dominator.png",
+    "thumb_file": "thumbs\\JAR-5_Dominator.png",
+    "warbond": "Steeled Veterans",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/JAR-5_Dominator",
+    "extra": {
+      "traits": [
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Special",
+      "penetration": "Medium",
+      "source": "Steeled Veterans , page 3"
+    }
+  },
+  {
+    "id": 108,
+    "name": "P-92 Warrant",
+    "icon_url": "https://helldivers.wiki.gg/images/2/22/P-92_Warrant_Secondary_Render.png?cf0e42",
+    "icon_file": "images\\P-92_Warrant.png",
+    "thumb_file": "thumbs\\P-92_Warrant.png",
+    "warbond": "Force of Law",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/P-92_Warrant",
+    "extra": {
+      "traits": [
+        "",
+        "Medium Armor Penetrating",
+        "One Handed",
+        "Guided"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Pistols",
+      "penetration": "Medium"
+    }
+  },
+  {
+    "id": 109,
+    "name": "P-2 Peacemaker",
+    "icon_url": "https://helldivers.wiki.gg/images/c/ca/P-2_Peacemaker_Secondary_Render.png?b67dc2",
+    "icon_file": "images\\P-2_Peacemaker.png",
+    "thumb_file": "thumbs\\P-2_Peacemaker.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/P-2_Peacemaker",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "One Handed"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Pistols",
+      "penetration": "Light",
+      "source": "Starter Equipment"
+    }
+  },
+  {
+    "id": 110,
+    "name": "P-19 Redeemer",
+    "icon_url": "https://helldivers.wiki.gg/images/3/35/P-19_Redeemer_Secondary_Render.png?d28531",
+    "icon_file": "images\\P-19_Redeemer.png",
+    "thumb_file": "thumbs\\P-19_Redeemer.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/P-19_Redeemer",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "One Handed"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Pistols",
+      "penetration": "Light",
+      "source": "Helldivers Mobilize , page 2"
+    }
+  },
+  {
+    "id": 111,
+    "name": "P-113 Verdict",
+    "icon_url": "https://helldivers.wiki.gg/images/9/96/P-113_Verdict_Secondary_Render.png?ebbbca",
+    "icon_file": "images\\P-113_Verdict.png",
+    "thumb_file": "thumbs\\P-113_Verdict.png",
+    "warbond": "Polar Patriots",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/P-113_Verdict",
+    "extra": {
+      "traits": [
+        "",
+        "Medium Armor Penetrating",
+        "One Handed"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Pistols",
+      "penetration": "Medium",
+      "source": "Polar Patriots , page 3"
+    }
+  },
+  {
+    "id": 112,
+    "name": "P-4 Senator",
+    "icon_url": "https://helldivers.wiki.gg/images/b/b7/P-4_Senator_Secondary_Render.png?136db0",
+    "icon_file": "images\\P-4_Senator.png",
+    "thumb_file": "thumbs\\P-4_Senator.png",
+    "warbond": "Steeled Veterans",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/P-4_Senator",
+    "extra": {
+      "traits": [
+        "",
+        "Heavy Armor Penetrating",
+        "One Handed",
+        "Rounds Reload"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Pistols",
+      "penetration": "Heavy",
+      "source": "Steeled Veterans , page 1"
+    }
+  },
+  {
+    "id": 113,
+    "name": "CQC-19 Stun Lance",
+    "icon_url": "https://helldivers.wiki.gg/images/9/9e/CQC-19_Stun_Lance_Secondary_Render.png?9a9709",
+    "icon_file": "images\\CQC-19_Stun_Lance.png",
+    "thumb_file": "thumbs\\CQC-19_Stun_Lance.png",
+    "warbond": "Urban Legends",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/CQC-19_Stun_Lance",
+    "extra": {
+      "traits": [
+        "One Handed",
+        "Stun"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Melee",
+      "penetration": "Medium",
+      "source": "Urban Legends , page 1"
+    }
+  },
+  {
+    "id": 114,
+    "name": "CQC-2 Saber",
+    "icon_url": "https://helldivers.wiki.gg/images/f/f8/CQC-2_Saber_Secondary_Render.png?b21f05",
+    "icon_file": "images\\CQC-2_Saber.png",
+    "thumb_file": "thumbs\\CQC-2_Saber.png",
+    "warbond": "Masters of Ceremony",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/CQC-2_Saber",
+    "extra": {
+      "traits": [
+        "Medium Armor Penetrating",
+        "One Handed"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Melee",
+      "penetration": "Medium",
+      "source": "Masters of Ceremony"
+    }
+  },
+  {
+    "id": 115,
+    "name": "CQC-30 Stun Baton",
+    "icon_url": "https://helldivers.wiki.gg/images/0/06/CQC-30_Stun_Baton_Secondary_Render.png?5b701f",
+    "icon_file": "images\\CQC-30_Stun_Baton.png",
+    "thumb_file": "thumbs\\CQC-30_Stun_Baton.png",
+    "warbond": "Other",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/CQC-30_Stun_Baton",
+    "extra": {
+      "traits": [
+        "One Handed",
+        "Stun"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Melee",
+      "penetration": "Medium",
+      "source": "Superstore"
+    }
+  },
+  {
+    "id": 116,
+    "name": "CQC-5 Combat Hatchet",
+    "icon_url": "https://helldivers.wiki.gg/images/3/3c/CQC-5_Combat_Hatchet_Secondary_Render.png?eb83de",
+    "icon_file": "images\\CQC-5_Combat_Hatchet.png",
+    "thumb_file": "thumbs\\CQC-5_Combat_Hatchet.png",
+    "warbond": "Other",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/CQC-5_Combat_Hatchet",
+    "extra": {
+      "traits": [
+        "One Handed"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Melee",
+      "penetration": "Medium",
+      "source": "Superstore"
+    }
+  },
+  {
+    "id": 117,
+    "name": "P-11 Stim Pistol",
+    "icon_url": "https://helldivers.wiki.gg/images/e/ed/P-11_Stim_Pistol_Secondary_Render.png?8cd908",
+    "icon_file": "images\\P-11_Stim_Pistol.png",
+    "thumb_file": "thumbs\\P-11_Stim_Pistol.png",
+    "warbond": "Chemical Agents",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/P-11_Stim_Pistol",
+    "extra": {
+      "traits": [
+        "One Handed",
+        "Rounds Reload",
+        "Stimulative"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Special",
+      "penetration": "0"
+    }
+  },
+  {
+    "id": 118,
+    "name": "SG-22 Bushwhacker",
+    "icon_url": "https://helldivers.wiki.gg/images/a/a9/SG-22_Bushwhacker_Secondary_Render.png?99969a",
+    "icon_file": "images\\SG-22_Bushwhacker.png",
+    "thumb_file": "thumbs\\SG-22_Bushwhacker.png",
+    "warbond": "Viper Commandos",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "Rounds Reload"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Special",
+      "penetration": "Light",
+      "source": "Viper Commandos , page 2"
+    }
+  },
+  {
+    "id": 119,
+    "name": "LAS-58 Talon",
+    "icon_url": "https://helldivers.wiki.gg/images/8/8b/LAS-58_Talon_Secondary_Render.png?ba0c65",
+    "icon_file": "images\\LAS-58_Talon.png",
+    "thumb_file": "thumbs\\LAS-58_Talon.png",
+    "warbond": "Borderline Justice",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/LAS-58_Talon",
+    "extra": {
+      "traits": [
+        "",
+        "One Handed",
+        "Heat",
+        "Medium Armor penetrating"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Special",
+      "penetration": "Medium",
+      "source": "Borderline Justice , page 2"
+    }
+  },
+  {
+    "id": 120,
+    "name": "P-72 Crisper",
+    "icon_url": "https://helldivers.wiki.gg/images/2/2c/P-72_Crisper_Secondary_Render.png?736c59",
+    "icon_file": "images\\P-72_Crisper.png",
+    "thumb_file": "thumbs\\P-72_Crisper.png",
+    "warbond": "Freedom's Flame",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
+    "extra": {
+      "traits": [
+        "Medium Armor Penetrating",
+        "Incendiary",
+        "One Handed"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Special",
+      "penetration": "4",
+      "source": "Freedom's Flame , page 3"
+    }
+  },
+  {
+    "id": 121,
+    "name": "GP-31 Grenade Pistol",
+    "icon_url": "https://helldivers.wiki.gg/images/e/e9/GP-31_Grenade_Pistol_Secondary_Render.png?c711e1",
+    "icon_file": "images\\GP-31_Grenade_Pistol.png",
+    "thumb_file": "thumbs\\GP-31_Grenade_Pistol.png",
+    "warbond": "Democratic Detonation",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol",
+    "extra": {
+      "traits": [
+        "One Handed",
+        "Explosive"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Special",
+      "penetration": "Medium",
+      "source": "Democratic Detonation , Page 3"
+    }
+  },
+  {
+    "id": 122,
+    "name": "LAS-7 Dagger",
+    "icon_url": "https://helldivers.wiki.gg/images/9/91/LAS-7_Dagger_Secondary_Render.png?a67fd9",
+    "icon_file": "images\\LAS-7_Dagger.png",
+    "thumb_file": "thumbs\\LAS-7_Dagger.png",
+    "warbond": "Cutting Edge",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/LAS-7_Dagger",
+    "extra": {
+      "traits": [
+        "",
+        "Light Armor Penetrating",
+        "One Handed",
+        "Beam",
+        "Heat"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Special",
+      "penetration": "Light",
+      "source": "Cutting Edge , page 3"
+    }
+  },
+  {
+    "id": 123,
+    "name": "GP-20 Ultimatum",
+    "icon_url": "https://helldivers.wiki.gg/images/4/41/GP-20_Ultimatum_Secondary_Render.png?d8a892",
+    "icon_file": "images\\GP-20_Ultimatum.png",
+    "thumb_file": "thumbs\\GP-20_Ultimatum.png",
+    "warbond": "Servants of Freedom",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/GP-20_Ultimatum",
+    "extra": {
+      "traits": [
+        "One Handed",
+        "Explosive"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Special",
+      "penetration": "Anti-Tank II",
+      "source": "Servants of Freedom , Page 2"
+    }
+  },
+  {
+    "id": 124,
+    "name": "PLAS-15 Loyalist",
+    "icon_url": "https://helldivers.wiki.gg/images/7/71/PLAS-15_Loyalist_Secondary_Render.png?942cbc",
+    "icon_file": "images\\PLAS-15_Loyalist.png",
+    "thumb_file": "thumbs\\PLAS-15_Loyalist.png",
+    "warbond": "Truth Enforcers",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/PLAS-15_Loyalist",
+    "extra": {
+      "traits": [
+        "",
+        "Medium Armor Penetrating",
+        "One Handed",
+        "Explosive",
+        "Chargeup"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Special",
+      "penetration": "Medium",
+      "source": "Truth Enforcers Premium Warbond , page 3"
+    }
+  },
+  {
+    "id": 125,
+    "name": "TED-63 Dynamite",
+    "icon_url": "https://helldivers.wiki.gg/images/5/5d/TED-63_Dynamite_Throwable_Render.png?b75bc8",
+    "icon_file": "images\\TED-63_Dynamite.png",
+    "thumb_file": "thumbs\\TED-63_Dynamite.png",
+    "warbond": "Borderline Justice",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/TED-63_Dynamite",
+    "extra": {
+      "penetration": "Medium"
+    }
+  },
+  {
+    "id": 126,
+    "name": "G-6 Frag",
+    "icon_url": "https://helldivers.wiki.gg/images/3/3d/G-6_Frag_Throwable_Render.png?5733c9",
+    "icon_file": "images\\G-6_Frag.png",
+    "thumb_file": "thumbs\\G-6_Frag.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-6_Frag",
+    "extra": {
+      "penetration": "Medium",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 127,
+    "name": "G-12 High Explosive",
+    "icon_url": "https://helldivers.wiki.gg/images/1/18/G-12_High_Explosive_Throwable_Render.png?23cf28",
+    "icon_file": "images\\G-12_High_Explosive.png",
+    "thumb_file": "thumbs\\G-12_High_Explosive.png",
+    "warbond": "Patriotic Administration Center",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-12_High_Explosive",
+    "extra": {
+      "penetration": "Heavy",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 128,
+    "name": "G-10 Incendiary",
+    "icon_url": "https://helldivers.wiki.gg/images/d/d7/G-10_Incendiary_Throwable_Render.png?7d8ce1",
+    "icon_file": "images\\G-10_Incendiary.png",
+    "thumb_file": "thumbs\\G-10_Incendiary.png",
+    "warbond": "Steeled Veterans",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-10_Incendiary",
+    "extra": {
+      "penetration": "Medium",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 129,
+    "name": "G-16 Impact",
+    "icon_url": "https://helldivers.wiki.gg/images/1/17/G-16_Impact_Throwable_Render.png?b1fb57",
+    "icon_file": "images\\G-16_Impact.png",
+    "thumb_file": "thumbs\\G-16_Impact.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-16_Impact",
+    "extra": {
+      "penetration": "Heavy",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 130,
+    "name": "G-13 Incendiary Impact",
+    "icon_url": "https://helldivers.wiki.gg/images/0/03/G-13_Incendiary_Impact_Throwable_Render.png?479e5c",
+    "icon_file": "images\\G-13_Incendiary_Impact.png",
+    "thumb_file": "thumbs\\G-13_Incendiary_Impact.png",
+    "warbond": "Polar Patriots",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-13_Incendiary_Impact",
+    "extra": {
+      "penetration": "Medium",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 131,
+    "name": "G-23 Stun",
+    "icon_url": "https://helldivers.wiki.gg/images/a/a6/G-23_Stun_Throwable_Render.png?124130",
+    "icon_file": "images\\G-23_Stun.png",
+    "thumb_file": "thumbs\\G-23_Stun.png",
+    "warbond": "Cutting Edge",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-23_Stun",
+    "extra": {
+      "penetration": "Tank II",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 132,
+    "name": "G-4 Gas",
+    "icon_url": "https://helldivers.wiki.gg/images/2/2b/G-4_Gas_Throwable_Render.png?5dfe6a",
+    "icon_file": "images\\G-4_Gas.png",
+    "thumb_file": "thumbs\\G-4_Gas.png",
+    "warbond": "Chemical Agents",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-4_Gas",
+    "extra": {
+      "penetration": "Tank II",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 133,
+    "name": "G-50 Seeker",
+    "icon_url": "https://helldivers.wiki.gg/images/9/95/G-50_Seeker_Throwable_Render.png?be19b2",
+    "icon_file": "images\\G-50_Seeker.png",
+    "thumb_file": "thumbs\\G-50_Seeker.png",
+    "warbond": "Servants of Freedom",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-50_Seeker",
+    "extra": {
+      "penetration": "Heavy",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 134,
+    "name": "G-3 Smoke",
+    "icon_url": "https://helldivers.wiki.gg/images/e/e9/G-3_Smoke_Throwable_Render.png?a39d1e",
+    "icon_file": "images\\G-3_Smoke.png",
+    "thumb_file": "thumbs\\G-3_Smoke.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-3_Smoke",
+    "extra": {
+      "penetration": "No Hitbox",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 135,
+    "name": "G-123 Thermite",
+    "icon_url": "https://helldivers.wiki.gg/images/4/4a/G-123_Thermite_Throwable_Render.png?58d878",
+    "icon_file": "images\\G-123_Thermite.png",
+    "thumb_file": "thumbs\\G-123_Thermite.png",
+    "warbond": "Democratic Detonation",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-123_Thermite",
+    "extra": {
+      "penetration": "Tank III",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 136,
+    "name": "K-2 Throwing Knife",
+    "icon_url": "https://helldivers.wiki.gg/images/6/64/K-2_Throwing_Knife_Throwable_Render.png?768bcc",
+    "icon_file": "images\\K-2_Throwing_Knife.png",
+    "thumb_file": "thumbs\\K-2_Throwing_Knife.png",
+    "warbond": "Viper Commandos",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/K-2_Throwing_Knife",
+    "extra": {
+      "penetration": "Medium"
+    }
+  },
+  {
+    "id": 137,
+    "name": "G-142 Pyrotech",
+    "icon_url": "https://helldivers.wiki.gg/images/0/05/G-142_Pyrotech_Throwable_Render.png?f56acf",
+    "icon_file": "images\\G-142_Pyrotech.png",
+    "thumb_file": "thumbs\\G-142_Pyrotech.png",
+    "warbond": "Masters of Ceremony",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-142_Pyrotech",
+    "extra": {
+      "penetration": "Medium",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 138,
+    "name": "G-109 Urchin",
+    "icon_url": "https://helldivers.wiki.gg/images/7/7e/G-109_Urchin_Throwable_Render.png?4aff7a",
+    "icon_file": "images\\G-109_Urchin.png",
+    "thumb_file": "thumbs\\G-109_Urchin.png",
+    "warbond": "Force of Law",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-109_Urchin",
+    "extra": {
+      "penetration": "Tank II",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 139,
+    "name": "G-31 Arc",
+    "icon_url": "https://helldivers.wiki.gg/images/b/bb/G-31_ARC_Throwable_Render.png?3f3234",
+    "icon_file": "images\\G-31_Arc.png",
+    "thumb_file": "thumbs\\G-31_Arc.png",
+    "warbond": "Control Group",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-31_Arc",
+    "extra": {
+      "penetration": "Heavy",
+      "weapon_category": "Grenades"
+    }
+  },
+  {
+    "id": 140,
+    "name": "SG-88 Break-Action Shotgun",
+    "icon_url": "https://helldivers.wiki.gg/images/b/ba/Break_Action_Shotgun_Weapon_World_Model.png?fe1653",
+    "icon_file": "images\\SG-88_Break-Action_Shotgun.png",
+    "thumb_file": "thumbs\\SG-88_Break-Action_Shotgun.png",
+    "warbond": "None",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/SG-88_Break-Action_Shotgun",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Light Armor Penetrating",
+        "Rounds Reload"
+      ],
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Misc.",
+      "penetration": "Light"
+    },
+    "disabled": true
+  },
+  {
+    "id": 141,
+    "name": "Entrenchment Tool",
+    "icon_url": "https://helldivers.wiki.gg/images/1/15/Entrenchment_Tool_Support_Render.png?4f007a",
+    "icon_file": "images\\Entrenchment_Tool.png",
+    "thumb_file": "thumbs\\Entrenchment_Tool.png",
+    "warbond": "None",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Entrenchment_Tool",
+    "extra": {
+      "traits": [
+        "One Handed"
+      ],
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Melee",
+      "penetration": "Medium"
+    },
+    "disabled": true
+  },
+  {
+    "id": 142,
+    "name": "PLAS-45 Epoch",
+    "icon_url": "https://helldivers.wiki.gg/images/5/56/PLAS-45_Epoch_Support_Render.png?645ff8",
+    "icon_file": "images\\PLAS-45_Epoch.png",
+    "thumb_file": "thumbs\\PLAS-45_Epoch.png",
+    "warbond": "Control Group",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/PLAS-45_Epoch",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Explosive",
+        "Heavy Armor Penetrating",
+        "Chargeup"
+      ],
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Heavy Energy-Based",
+      "penetration": "Anti-Tank I",
+      "source": "Control Group Warbond",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 143,
+    "name": "Hellpod Space Optimization",
+    "icon_url": "https://helldivers.wiki.gg/images/2/2a/Hellpod_Space_Optimization_Booster_Icon.svg?aa4762",
+    "icon_file": "images\\Hellpod_Space_Optimization.png",
+    "thumb_file": "thumbs\\Hellpod_Space_Optimization.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Hellpod_Space_Optimization",
+    "extra": null
+  },
+  {
+    "id": 144,
+    "name": "Vitality Enhancement",
+    "icon_url": "https://helldivers.wiki.gg/images/f/f6/Vitality_Enhancement_Booster_Icon.svg?873a4b",
+    "icon_file": "images\\Vitality_Enhancement.png",
+    "thumb_file": "thumbs\\Vitality_Enhancement.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Vitality_Enhancement",
+    "extra": null
+  },
+  {
+    "id": 145,
+    "name": "UAV Recon Booster",
+    "icon_url": "https://helldivers.wiki.gg/images/e/e7/UAV_Recon_Booster_Booster_Icon.svg?3e5a87",
+    "icon_file": "images\\UAV_Recon_Booster.png",
+    "thumb_file": "thumbs\\UAV_Recon_Booster.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/UAV_Recon_Booster",
+    "extra": null
+  },
+  {
+    "id": 146,
+    "name": "Stamina Enhancement",
+    "icon_url": "https://helldivers.wiki.gg/images/6/68/Stamina_Enhancement_Booster_Icon.svg?d76555",
+    "icon_file": "images\\Stamina_Enhancement.png",
+    "thumb_file": "thumbs\\Stamina_Enhancement.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Stamina_Enhancement",
+    "extra": null
+  },
+  {
+    "id": 147,
+    "name": "Muscle Enhancement",
+    "icon_url": "https://helldivers.wiki.gg/images/8/8b/Muscle_Enhancement_Booster_Icon.svg?f1d14b",
+    "icon_file": "images\\Muscle_Enhancement.png",
+    "thumb_file": "thumbs\\Muscle_Enhancement.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Muscle_Enhancement",
+    "extra": null
+  },
+  {
+    "id": 148,
+    "name": "Increased Reinforcement Budget",
+    "icon_url": "https://helldivers.wiki.gg/images/6/6d/Increased_Reinforcement_Budget_Booster_Icon.svg?7f04a9",
+    "icon_file": "images\\Increased_Reinforcement_Budget.png",
+    "thumb_file": "thumbs\\Increased_Reinforcement_Budget.png",
+    "warbond": "Helldivers Mobilize",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Increased_Reinforcement_Budget",
+    "extra": null
+  },
+  {
+    "id": 149,
+    "name": "Flexible Reinforcement Budget",
+    "icon_url": "https://helldivers.wiki.gg/images/4/49/Flexible_Reinforcement_Budget_Booster_Icon.svg?1d940b",
+    "icon_file": "images\\Flexible_Reinforcement_Budget.png",
+    "thumb_file": "thumbs\\Flexible_Reinforcement_Budget.png",
+    "warbond": "Steeled Veterans",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Flexible_Reinforcement_Budget",
+    "extra": null
+  },
+  {
+    "id": 150,
+    "name": "Localization Confusion",
+    "icon_url": "https://helldivers.wiki.gg/images/9/9f/Localization_Confusion_Booster_Icon.svg?95b1f1",
+    "icon_file": "images\\Localization_Confusion.png",
+    "thumb_file": "thumbs\\Localization_Confusion.png",
+    "warbond": "Cutting Edge",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Localization_Confusion",
+    "extra": null
+  },
+  {
+    "id": 151,
+    "name": "Expert Extraction Pilot",
+    "icon_url": "https://helldivers.wiki.gg/images/a/af/Expert_Extraction_Pilot_Booster_Icon.svg?e0a588",
+    "icon_file": "images\\Expert_Extraction_Pilot.png",
+    "thumb_file": "thumbs\\Expert_Extraction_Pilot.png",
+    "warbond": "Democratic Detonation",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Expert_Extraction_Pilot",
+    "extra": null
+  },
+  {
+    "id": 152,
+    "name": "Motivational Shocks",
+    "icon_url": "https://helldivers.wiki.gg/images/6/64/Motivational_Shocks_Booster_Icon.svg?b83499",
+    "icon_file": "images\\Motivational_Shocks.png",
+    "thumb_file": "thumbs\\Motivational_Shocks.png",
+    "warbond": "Polar Patriots",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Motivational_Shocks",
+    "extra": null
+  },
+  {
+    "id": 153,
+    "name": "Experimental Infusion",
+    "icon_url": "https://helldivers.wiki.gg/images/2/20/Experimental_Infusion_Booster_Icon.svg?3bb23a",
+    "icon_file": "images\\Experimental_Infusion.png",
+    "thumb_file": "thumbs\\Experimental_Infusion.png",
+    "warbond": "Viper Commandos",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Experimental_Infusion",
+    "extra": null
+  },
+  {
+    "id": 154,
+    "name": "Firebomb Hellpods",
+    "icon_url": "https://helldivers.wiki.gg/images/9/9c/Firebomb_Hellpods_Booster_Icon.svg?b0cb2a",
+    "icon_file": "images\\Firebomb_Hellpods.png",
+    "thumb_file": "thumbs\\Firebomb_Hellpods.png",
+    "warbond": "Freedom's Flame",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Firebomb_Hellpods",
+    "extra": null
+  },
+  {
+    "id": 155,
+    "name": "Dead Sprint",
+    "icon_url": "https://helldivers.wiki.gg/images/4/4a/Dead_Sprint_Booster_Icon.svg?ad8a2b",
+    "icon_file": "images\\Dead_Sprint.png",
+    "thumb_file": "thumbs\\Dead_Sprint.png",
+    "warbond": "Truth Enforcers",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Dead_Sprint",
+    "extra": null
+  },
+  {
+    "id": 156,
+    "name": "Armed Resupply Pods",
+    "icon_url": "https://helldivers.wiki.gg/images/3/3a/Armed_Resupply_Pods_Booster_Icon.svg?60e831",
+    "icon_file": "images\\Armed_Resupply_Pods.png",
+    "thumb_file": "thumbs\\Armed_Resupply_Pods.png",
+    "warbond": "Urban Legends",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Armed_Resupply_Pods",
+    "extra": null
+  },
+  {
+    "id": 157,
+    "name": "Sample Extricator",
+    "icon_url": "https://helldivers.wiki.gg/images/e/e7/Sample_Extricator_Booster_Icon.svg?13722c",
+    "icon_file": "images\\Sample_Extricator.png",
+    "thumb_file": "thumbs\\Sample_Extricator.png",
+    "warbond": "Borderline Justice",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Sample_Extricator",
+    "extra": null
+  },
+  {
+    "id": 158,
+    "name": "Sample Scanner",
+    "icon_url": "https://helldivers.wiki.gg/images/b/bb/Sample_Scanner_Booster_Icon.svg?894450",
+    "icon_file": "images\\Sample_Scanner.png",
+    "thumb_file": "thumbs\\Sample_Scanner.png",
+    "warbond": "Masters of Ceremony",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Sample_Scanner",
+    "extra": null
+  },
+  {
+    "id": 159,
+    "name": "Stun Pods",
+    "icon_url": "https://helldivers.wiki.gg/images/thumb/2/2b/Stun_Pods_Booster_Icon.png/138px-Stun_Pods_Booster_Icon.png?4d3461",
+    "icon_file": "images\\Stun_Pods.png",
+    "thumb_file": "thumbs\\Stun_Pods.png",
+    "warbond": "Force of Law",
+    "category": "Booster",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/Stun_Pods",
+    "extra": null
+  }
+]

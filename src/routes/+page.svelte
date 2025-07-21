@@ -4,6 +4,7 @@
     import IconLockClosed from 'virtual:icons/ion/lock-closed';
     import IconList from 'virtual:icons/ion/list';
 	import _ from "lodash";
+    import { browser } from '$app/environment';
 
     let { data } = $props();
 
@@ -74,11 +75,13 @@
     });
 
     function saveSelectedItems(){
+        if(!browser) return;
         const selectedItems = encodeURIComponent(JSON.stringify(_.mapValues(selected, "id")));
         document.cookie = `selectedItems=${selectedItems}; path=/; max-age=31536000`;
     }
     
     function saveLockedItems(){
+        if(!browser) return;
         const lockedItems = encodeURIComponent(JSON.stringify(locked));
         document.cookie = `lockedItems=${lockedItems}; path=/; max-age=31536000`;
     }

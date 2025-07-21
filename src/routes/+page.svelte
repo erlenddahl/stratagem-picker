@@ -43,9 +43,6 @@
         try{
 
             const mapped = _.mapValues(data.selectedItems, p => weaponLookup[p]);
-
-            console.log(data.selectedItems, mapped);
-
             return mapped;
 
         }catch(err){
@@ -150,23 +147,22 @@
 {/snippet}
 
 <div class="max-w-6xl mx-auto px-4 py-10">
-    <div class="grid grid-cols-3 gap-6 mb-10">
-        {#each ['primary', 'secondary', 'grenade'] as slot}
+
+    <div class="grid grid-cols-4 gap-6 mb-10">
+        {#each ['primary', 'secondary', 'grenade', 'booster'] as slot}
             {@render WeaponContainer(slot)}
         {/each}
     </div>
 
-    <div class="grid grid-cols-5 gap-4 mb-10">
-        <div class="col-span-4 border rounded-lg p-4 relative">
+    <div class="border rounded-lg p-4 mb-10">
+        <div class="flex flex-row items-center justify-center mb-5">
             {@render ContainerHeader("Stratagem", "Stratagems")}
-            <div class="grid grid-cols-4 gap-4">
-                {#each ['stratagem_0', 'stratagem_1', 'stratagem_2', 'stratagem_3'] as slot}
-                    {@render WeaponContainer(slot, false)}
-                {/each}
-            </div>
         </div>
-
-        {@render WeaponContainer("booster")}
+        <div class="grid grid-cols-4 gap-6">
+            {#each ['stratagem_0', 'stratagem_1', 'stratagem_2', 'stratagem_3'] as slot}
+                {@render WeaponContainer(slot, false)}
+            {/each}
+        </div>
     </div>
 
     <div class="flex justify-center gap-10">

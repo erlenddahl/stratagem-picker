@@ -17,6 +17,9 @@
         );
     }
 
+    const ordinarySlots = ['primary', 'secondary', 'grenade', 'booster'];
+    const stratagemSlots = ["stratagem_0", "stratagem_1", "stratagem_2", "stratagem_3"];
+
     const available = {
         "primary": filterByCategory("Primary Weapons"),
         "secondary": filterByCategory("Secondary Weapons"),
@@ -27,16 +30,6 @@
 
     function pickRandom(list) {
         return list[Math.floor(Math.random() * list.length)];
-    }
-
-    function pickMany(list, count) {
-        const copy = [...list];
-        const result = [];
-        for (let i = 0; i < count && copy.length > 0; i++) {
-            const index = Math.floor(Math.random() * copy.length);
-            result.push(copy.splice(index, 1)[0]);
-        }
-        return result;
     }
 
     function loadSelectedItems(){
@@ -52,27 +45,8 @@
         return;
     }
 
-    let selected = $state(loadSelectedItems() ?? {
-        primary: null,
-        secondary: null,
-        grenade: null,
-        stratagem_0: null,
-        stratagem_1: null,
-        stratagem_2: null,
-        stratagem_3: null,
-        booster: null
-    });
-
-    let locked = $state(data.lockedItems ?? {
-        primary: false,
-        secondary: false,
-        grenade: false,
-        stratagem_0: false,
-        stratagem_1: false,
-        stratagem_2: false,
-        stratagem_3: false,
-        booster: false
-    });
+    let selected = $state(loadSelectedItems() ?? {});
+    let locked = $state(data.lockedItems ?? {});
 
     function saveSelectedItems(){
         if(!browser) return;
@@ -91,16 +65,51 @@
         saveLockedItems();
     }
 
-    function reroll(slot, save=true) {
-        if (locked[slot]) return;
-        selected[slot] = pickRandom(available[slot.split("_")[0]].filter(p => p.checked));
+    function getSlot(slot){
+        return slot.split("_")[0];
+    }
 
-        if(!save) return;
-        saveSelectedItems();
+    function getAvailableItems(slot){
+        return available[getSlot(slot)].filter(p => p.checked);
+    }
+
+    function reroll(slot, save=true, predefined_pool=null) {
+        if (locked[slot]) return predefined_pool;
+
+        let pool = predefined_pool ?? (slot.startsWith("stratagem_") ? getStratagemPool(slot) : getAvailableItems(slot));
+
+        console.log("Picking " + slot + " from pool of " + pool.length + " items.");
+
+        selected[slot] = pickRandom(pool) ?? undefined;
+
+        if(save){
+            saveSelectedItems();
+        }
+
+        if(predefined_pool){
+            return predefined_pool.filter(p => p.id != selected[slot]?.id);
+        }
+    }
+
+    function getStratagemPool(singleSlot=null){
+        let stratagemPool = getAvailableItems("stratagem");
+        for(const slot of stratagemSlots){
+            if(singleSlot == slot) continue;
+            if(!singleSlot && !locked[slot]) continue;
+            stratagemPool = stratagemPool.filter(p => p.id != selected[slot]?.id);
+        }
+        return stratagemPool;
     }
 
     function rerollAll() {
-        Object.keys(selected).forEach(p => reroll(p, false));
+        ordinarySlots.forEach(p => reroll(p, false));
+
+        let stratagemPool = getStratagemPool();
+        for(const slot of stratagemSlots){
+            if(locked[slot]) continue;
+            stratagemPool = reroll(slot, false, stratagemPool);
+        }
+
         saveSelectedItems();
     }
 
@@ -133,7 +142,7 @@
                     <img src={selected[slot].icon_file} alt={selected[slot].name} class="max-h-32" />
                 </div>
                 <p class="text-lg mt-2">{selected[slot].name}</p>
-            {:else if !available[slot.toLowerCase().split("_")[0]]?.filter(p => p.checked).length}
+            {:else if selected[slot] == undefined}
                 <p>No items available.</p>
             {:else}
                 <p>Loading...</p>
@@ -152,7 +161,7 @@
 <div class="max-w-6xl mx-auto px-4 py-10">
 
     <div class="grid grid-cols-4 gap-6 mb-10">
-        {#each ['primary', 'secondary', 'grenade', 'booster'] as slot}
+        {#each ordinarySlots as slot}
             {@render WeaponContainer(slot)}
         {/each}
     </div>
@@ -162,7 +171,7 @@
             {@render ContainerHeader("Stratagem", "Stratagems")}
         </div>
         <div class="grid grid-cols-4 gap-6">
-            {#each ['stratagem_0', 'stratagem_1', 'stratagem_2', 'stratagem_3'] as slot}
+            {#each stratagemSlots as slot}
                 {@render WeaponContainer(slot, false)}
             {/each}
         </div>

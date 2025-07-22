@@ -1,3 +1,5 @@
+import { getGroups } from "$lib/constants";
+
 function loadCookie(cookies, key){
     try {
         const cookie = cookies.get(key);
@@ -17,15 +19,26 @@ export async function loadWeapons(fetch, cookies){
     const checkedUrls = loadCookie(cookies, 'checkedWeapons');
     const selectedItems = loadCookie(cookies, 'selectedItems');
     const lockedItems = loadCookie(cookies, 'lockedItems');
+    const groupSettings = loadCookie(cookies, "groups");
 
     const urlSet = new Set(checkedUrls ?? []);
     weapons.forEach(w => {
         w.checked = checkedUrls == null || urlSet.has(w.id);
     });
+
+    const groups = getGroups(weapons);
+    for(const setting of groupSettings){
+        const g = groups[setting.id];
+        if(!g) return;
+        g.enabled = setting.enabled;
+        g.min = setting.min;
+        g.max = setting.max;
+    }
   
     return { 
         weapons,
         selectedItems,
-        lockedItems
+        lockedItems,
+        groups
     };
 }

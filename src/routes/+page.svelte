@@ -3,13 +3,20 @@
     import IconLockOpen from 'virtual:icons/ion/lock-open';
     import IconLockClosed from 'virtual:icons/ion/lock-closed';
     import IconList from 'virtual:icons/ion/list';
+    import IconSettings from 'virtual:icons/ion/settings';
 	import _ from "lodash";
-    import { browser } from '$app/environment';
+	import { pickRandom, setCookie } from '$lib/constants.js';
+	import StratagemPool from '$lib/stratagemPool.js';
 
     let { data } = $props();
 
     const weapons = data.weapons;
     const weaponLookup = _.keyBy(weapons, "id");
+
+    /*
+        PC and smart phone friendly menu allowing easy navigation between Main, Weapon selection and Groups.
+        Add About
+    */
 
     function filterByCategory(category) {
         return weapons.filter(
@@ -26,10 +33,6 @@
         "grenade": filterByCategory("Grenades"),
         "stratagem": weapons.filter(p => p.category === "Stratagem"),
         "booster": weapons.filter(p => p.category === "Booster")
-    }
-
-    function pickRandom(list) {
-        return list[Math.floor(Math.random() * list.length)];
     }
 
     function loadSelectedItems(){
@@ -49,15 +52,11 @@
     let locked = $state(data.lockedItems ?? {});
 
     function saveSelectedItems(){
-        if(!browser) return;
-        const selectedItems = encodeURIComponent(JSON.stringify(_.mapValues(selected, "id")));
-        document.cookie = `selectedItems=${selectedItems}; path=/; max-age=31536000`;
+        setCookie("selectedItems", _.mapValues(selected, "id"));
     }
     
     function saveLockedItems(){
-        if(!browser) return;
-        const lockedItems = encodeURIComponent(JSON.stringify(locked));
-        document.cookie = `lockedItems=${lockedItems}; path=/; max-age=31536000`;
+        setCookie("lockedItems", locked);
     }
 
     function toggleLock(slot) {
@@ -73,10 +72,22 @@
         return available[getSlot(slot)].filter(p => p.checked);
     }
 
-    function reroll(slot, save=true, predefined_pool=null) {
-        if (locked[slot]) return predefined_pool;
+    function reroll(slot, save=true) {
+        if (locked[slot]) return;
 
-        let pool = predefined_pool ?? (slot.startsWith("stratagem_") ? getStratagemPool(slot) : getAvailableItems(slot));
+        // This function is normally only called for ordinary slots.
+        // If it's called for a stratagem slot, that means it's a single-slot
+        // re-roll. For stratagems, this requires special handling, since
+        // there are multiple of them that should avoid duplicates,
+        // and abide to any group restrictions.
+        if(slot.startsWith("stratagem")){
+            const pool = getStratagemPool(slot);
+            selected[slot] = pool.pickNext();
+            saveSelectedItems();
+            return;
+        }
+
+        let pool = getAvailableItems(slot);
 
         console.log("Picking " + slot + " from pool of " + pool.length + " items.");
 
@@ -85,29 +96,41 @@
         if(save){
             saveSelectedItems();
         }
-
-        if(predefined_pool){
-            return predefined_pool.filter(p => p.id != selected[slot]?.id);
-        }
     }
 
+    /** Returns the pool of stratagems that are available for picking.
+     * If this is a full re-roll, that means all stratagems minus the locked ones.
+     * If this is a single-slot re-roll, that means all stratagems minus the other ones.
+     * @param {string} singleSlot - Set to the slot we are picking for if we are only picking a single stratagem (the three other already picked stratagems will be removed from the pool)
+     */
     function getStratagemPool(singleSlot=null){
-        let stratagemPool = getAvailableItems("stratagem");
+        
+        // Start with the full stratagem pool, and set it up
+        // to pick items abiding the group restrictions (if any).
+        const pool = new StratagemPool(getAvailableItems("stratagem"), Object.values(data.groups));
+
         for(const slot of stratagemSlots){
+
+            // If this is the slot we are picking for, it will be re-rolled -- ignore the picked item.
             if(singleSlot == slot) continue;
+
+            // If this is a full re-roll, and this slot is not locked, it will be re-rolled -- ignore the picked item.
             if(!singleSlot && !locked[slot]) continue;
-            stratagemPool = stratagemPool.filter(p => p.id != selected[slot]?.id);
+
+            // Otherwise, if this is a single-slot pick, or if this item is locked, we need 
+            // to remove it from the available pool.
+            pool.picked(selected[slot]);
         }
-        return stratagemPool;
+        return pool;
     }
 
     function rerollAll() {
         ordinarySlots.forEach(p => reroll(p, false));
 
-        let stratagemPool = getStratagemPool();
+        const stratagemPool = getStratagemPool();
         for(const slot of stratagemSlots){
             if(locked[slot]) continue;
-            stratagemPool = reroll(slot, false, stratagemPool);
+            selected[slot] = stratagemPool.pickNext();
         }
 
         saveSelectedItems();
@@ -183,6 +206,9 @@
         </button>
         <a class="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-700 transition cursor-pointer" href="/warbonds">
             <IconList class="inline-block mr-1 text-2xl" /> Select available items
+        </a>
+        <a class="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-700 transition cursor-pointer" href="/options">
+            <IconSettings class="inline-block mr-1 text-2xl" /> Options
         </a>
     </div>
 

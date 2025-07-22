@@ -4,6 +4,7 @@
     import IconChevron from 'virtual:icons/ion/chevron-forward';
     import IconChecked from 'virtual:icons/ion/checkbox-outline';
     import IconUnchecked from 'virtual:icons/ion/square-outline';
+	import { setCookie } from "$lib/constants.js";
 
     let { data } = $props();
 
@@ -33,24 +34,13 @@
     ];
 
     function saveCheckedWeapons() {
-        const checkedUrls = _(warbonds)
+        const checkedIds = _(warbonds)
             .map("items")
             .flatten()
             .filter(w => w.checked)
             .map(w => w.id)
             .value();
-        const value = encodeURIComponent(JSON.stringify(checkedUrls));
-        document.cookie = `checkedWeapons=${value}; path=/; max-age=31536000`;
-    }
-
-    function getCheckedWeaponsFromCookie() {
-        const match = document.cookie.match(/(?:^|; )checkedWeapons=([^;]*)/);
-        if (!match) return [];
-        try {
-            return JSON.parse(decodeURIComponent(match[1]));
-        } catch {
-            return [];
-        }
+        setCookie("checkedWeapons", checkedIds);
     }
 
     $effect(() => saveCheckedWeapons(warbonds));
@@ -102,6 +92,12 @@
         }
     }
 
+    function openAll(value){
+        for(const warbond of warbonds){
+            warbond.opened = value;
+        }
+    }
+
 </script>
 
 <div class="m-10">
@@ -115,11 +111,17 @@
     <p class="mb-5">The items you have selected will be stored in this browser, so that you can re-use the same selection the next time you open the page in the same browser.</p>
 
     <div class="flex flex-row gap-5 mb-5">
-        <button class="bg-green-600 text-white font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-green-700 transition cursor-pointer" onclick={() => selectAll(true)}>
+        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => selectAll(true)}>
             <IconChecked class="inline-block mr-1 text-2xl" />  Select all
         </button>
-        <button class="bg-gray-600 text-white font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-700 transition cursor-pointer" onclick={() => selectAll(false)}>
+        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => selectAll(false)}>
             <IconUnchecked class="inline-block mr-1 text-2xl" />  Select none
+        </button>
+        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => openAll(true)}>
+            <IconChevron class="inline-block mr-1 text-2xl rotate-90" />  Open all
+        </button>
+        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => openAll(false)}>
+            <IconChevron class="inline-block mr-1 text-2xl" />  Close all
         </button>
     </div>
 

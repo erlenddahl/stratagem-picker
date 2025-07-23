@@ -1,8 +1,8 @@
 <script>
     import _ from "lodash";
     import IconBack from 'virtual:icons/ion/arrow-back-circle';
-    import IconChecked from 'virtual:icons/ion/checkbox-outline';
-    import IconUnchecked from 'virtual:icons/ion/square-outline';
+    import IconChecked from 'virtual:icons/fluent/checkbox-checked-24-filled';
+    import IconUnchecked from 'virtual:icons/fluent/checkbox-unchecked-24-filled';
 	import RangeSelector from "./RangeSelector.svelte";
 	import { setCookie } from "$lib/constants";
 

@@ -2,8 +2,11 @@
     import _ from "lodash";
     import IconBack from 'virtual:icons/ion/arrow-back-circle';
     import IconChevron from 'virtual:icons/ion/chevron-forward';
-    import IconChecked from 'virtual:icons/ion/checkbox-outline';
-    import IconUnchecked from 'virtual:icons/ion/square-outline';
+    
+    import IconChecked from 'virtual:icons/fluent/checkbox-checked-24-filled';
+    import IconIndeterminate from 'virtual:icons/fluent/checkbox-indeterminate-24-filled';
+    import IconUnchecked from 'virtual:icons/fluent/checkbox-unchecked-24-filled';
+
 	import { setCookie } from "$lib/constants.js";
 
     let { data } = $props();
@@ -73,16 +76,28 @@
         }
     }
 
-    function getGroupColors(items) {
+    function getGroupStatus(items) {
         const allChecked = _.every(items, 'checked');
         const noneChecked = _.every(items, item => !item.checked);
 
         if (allChecked) {
-            return 'bg-green-200 text-green-400';
+            return 'all';
         } else if (noneChecked) {
-            return 'bg-gray-200 text-gray-400';
+            return 'none';
         } else {
-            return 'bg-yellow-200 text-yellow-400';
+            return 'some';
+        }
+    }
+
+    function getGroupColors(items) {
+        const status = getGroupStatus(items);
+
+        if (status == "all") {
+            return 'text-green-400';
+        } else if (status == "none") {
+            return 'text-gray-400';
+        } else {
+            return 'text-yellow-400';
         }
     }
 
@@ -106,29 +121,39 @@
         <IconBack class="inline-block mr-1 text-2xl" />  Back to stratagem picker
     </a>
 
-    <p class="mb-5">Here you can filter which items you want to be pickable. Tap a section header to open it and see the individual items, or tap the [X / Y] info to the right of the header to toggle all items in this section on or off at the same time.</p>
+    <p class="mb-5">Here you can filter which items you want to be pickable. Tap a section header to open it and see the individual items, or tap the checkbox to toggle all items in this section on or off at the same time.</p>
 
     <p class="mb-5">The items you have selected will be stored in this browser, so that you can re-use the same selection the next time you open the page in the same browser.</p>
 
     <div class="flex flex-row gap-5 mb-5">
-        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => selectAll(true)}>
+        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => selectAll(true)} data-umami-event="select-all">
             <IconChecked class="inline-block mr-1 text-2xl" />  Select all
         </button>
-        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => selectAll(false)}>
+        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => selectAll(false)} data-umami-event="select-none">
             <IconUnchecked class="inline-block mr-1 text-2xl" />  Select none
         </button>
-        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => openAll(true)}>
+        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => openAll(true)} data-umami-event="open-all">
             <IconChevron class="inline-block mr-1 text-2xl rotate-90" />  Open all
         </button>
-        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => openAll(false)}>
+        <button class="border font-bold px-6 py-3 inline-block mb-5 rounded-lg hover:bg-gray-200 transition cursor-pointer" onclick={() => openAll(false)} data-umami-event="close-all">
             <IconChevron class="inline-block mr-1 text-2xl" />  Close all
         </button>
     </div>
 
     {#each warbonds as warbond}
+        {@const status = getGroupStatus(warbond.items)}
         <div class="flex flex-row gap-3 border-b-gray-400 pb-3" class:border-b={warbond.opened}>
+            <button class="{getGroupColors(warbond.items)} cursor-pointer rounded-md font-bold w-8 h-8 flex flex-col justify-center items-center text-2xl leading-none" onclick={() => toggleAll(warbond.items)}>
+                {#if status == "all"}
+                    <IconChecked />
+                {:else if status == "none"}
+                    <IconUnchecked />
+                {:else}
+                    <IconIndeterminate />
+                {/if}
+            </button>
             <button class="cursor-pointer flex flex-row gap-5" onclick={() => warbond.opened = !warbond.opened}>
-                <div class="{getGroupColors(warbond.items)} rounded-md font-bold w-8 h-8 flex flex-col justify-center items-center text-2xl leading-none" class:rotate-90={warbond.opened}>
+                <div class="rounded-md font-bold w-8 h-8 flex flex-col justify-center items-center text-2xl leading-none" class:rotate-90={warbond.opened}>
                     <IconChevron />
                 </div>
                 <span class="text-2xl font-bold">{warbond.title}</span>
@@ -149,7 +174,9 @@
                         </div>
                         <p class="truncate">{weapon.name}</p>
                         {#if weapon.checked}
-                            <div class="absolute bottom-3 left-1 bg-green-200 text-green-400 rounded-md font-bold w-8 h-8 flex flex-col justify-center items-center text-2xl leading-none">✓</div>
+                            <div class="absolute bottom-3 left-1 text-green-400 rounded-md font-bold w-8 h-8 flex flex-col justify-center items-center text-2xl leading-none">
+                                <IconChecked />
+                            </div>
                         {/if}
                         <a href={weapon.url} onclick={e => e.cancelBubble()} target="_blank" class="absolute top-1 right-1 bg-blue-200 text-blue-400 opacity-25 hover:opacity-100 rounded-md font-bold w-5 h-5 flex flex-col justify-center items-center text-sm leading-none">i</a>
                     </button>

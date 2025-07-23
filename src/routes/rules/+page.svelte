@@ -30,9 +30,9 @@
         <IconBack class="inline-block mr-1 text-2xl" />  Back to stratagem picker
     </a>
 
-    <p class="mb-5">These are options.</p>
+    <p class="mb-5">Here you can set rules that determines how stratagems are picked. For example, you can prevent multiple backpacks or multiple support weapons by setting max values on these groups.</p>
 
-    <p class="mb-5">The options you have selected will be stored in this browser, so that you can re-use the same options the next time you open the page in the same browser.</p>
+    <p class="mb-5">The rules you have selected will be stored in this browser, so that you can re-use them the next time you open the page in the same browser.</p>
 
     <div class="flex flex-col gap-5">
         {#each Object.values(data.groups) as g}

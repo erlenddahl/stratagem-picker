@@ -31,6 +31,10 @@ export function getGroups(weapons){
             title: "Anti-tank weapons",
             items: weapons.filter(p => p.extra?.weapon_category == "Support Weapons" && p.extra?.traits?.indexOf("Anti-Tank") >= 0)
         },
+        "supports": {
+            title: "Support weapons",
+            items: weapons.filter(p => p.category == "Stratagem" && p.extra?.weapon_category == "Support Weapons")
+        },
         "eagles": {
             title: "Eagle strikes",
             items: weapons.filter(p => p.extra?.traits?.indexOf("Eagle") >= 0)

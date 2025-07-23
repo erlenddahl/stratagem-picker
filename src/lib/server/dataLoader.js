@@ -14,7 +14,7 @@ function loadCookie(cookies, key){
 
 export async function loadWeapons(fetch, cookies){
     const res = await fetch('/helldivers_weapons.json');
-    const weapons = await res.json();
+    const weapons = (await res.json()).filter(p => !p.disabled);
 
     const checkedUrls = loadCookie(cookies, 'checkedWeapons');
     const selectedItems = loadCookie(cookies, 'selectedItems');

@@ -195,7 +195,7 @@
 
 <div class="max-w-6xl mx-auto px-4 py-10">
 
-    <div class="grid grid-cols-4 gap-6 mb-10">
+    <div class="grid grid-cols-4 gap-2 sm:gap-6 mb-10">
         {#each ordinarySlots as slot}
             {@render WeaponContainer(slot)}
         {/each}
@@ -229,7 +229,7 @@
 <div class="mt-10 py-10 bg-gray-200">
     <div class="flex flex-row flex-wrap justify-center gap-10">
         <div class="text-center md:text-right w-96">
-            <h2 class="text-2xl">Available items</h2>
+            <h2 class="text-2xl">Items</h2>
             <table class="inline-block">
                 <thead></thead>
                 <tbody>

@@ -19,7 +19,20 @@ export async function loadWeapons(fetch, cookies){
     const checkedUrls = loadCookie(cookies, 'checkedWeapons');
     const selectedItems = loadCookie(cookies, 'selectedItems');
     const lockedItems = loadCookie(cookies, 'lockedItems');
-    const groupSettings = loadCookie(cookies, "groups");
+    const groupSettings = loadCookie(cookies, "groups") ?? [
+        {
+            id: "anti-tanks",
+            enabled: true,
+            min: 1,
+            max: 4
+        },
+        {
+            id: "backpacks",
+            enabled: true,
+            min: 0,
+            max: 1
+        }
+    ];
 
     const urlSet = new Set(checkedUrls ?? []);
     weapons.forEach(w => {

@@ -48,6 +48,8 @@ export default class StratagemPool{
      */
     picked(item){
 
+        if(!item) return item;
+
         console.log("Removing picked item " + item.name);
 
         this.remove(item);

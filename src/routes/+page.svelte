@@ -139,22 +139,34 @@
     if(!data.selectedItems || !data.lockedItems){
         rerollAll();
     }
+
+    function describeRule(rule){
+        if(rule.min == rule.max){
+            return "Pick exactly " + rule.min + " items.";
+        }
+        if(rule.min > 0 && rule.max < 4){
+            return "Pick at least " + rule.min + " items, but not more than " + rule.max + ".";
+        }
+        if(rule.min > 0){
+            return "Pick at least " + rule.min + " items.";
+        }
+        if(rule.max < 4){
+            return "Pick at most " + rule.max + " items.";
+        }
+        return "Pick freely.";
+    }
 </script>
 
 {#snippet ContainerHeader(slot, customTitle = null)}
-    {@const shortSlot = slot.toLowerCase().split("_")[0]}
-    {@const have = available[shortSlot]?.filter(p => p.checked).length ?? "?"}
-    {@const total = available[shortSlot]?.length ?? "?"}
     <div class="flex flex-row gap-3 items-center">
-        <h2 class="text-xl font-bold capitalize">{customTitle ?? slot}</h2>
-        <span class="text-sm" title="You have {have} of {total} items in this category">[{have} / {total}]</span>
+        <h2 class="text-sm md:text-xl font-bold capitalize">{customTitle ?? slot}</h2>
     </div>
 {/snippet}
 
 {#snippet WeaponContainer(slot, showHeader = true)}
-    <div class="relative">
+    <div class="relative text-sm sm:text-base">
         <button
-            class="w-full cursor-pointer text-center rounded-lg p-4 hover:bg-gray-100 transition flex flex-col justify-between items-center {showHeader ? "h-72" : "h-52"}" class:border={showHeader}
+            class="w-full cursor-pointer text-center rounded-lg p-4 hover:bg-gray-100 transition flex flex-col justify-between items-center {showHeader ? "h-44 sm:h-64" : "h-32 sm:h-44"}" class:border={showHeader}
             onclick={() => reroll(slot)}
         >
             {#if showHeader}
@@ -162,16 +174,16 @@
             {/if}
             {#if selected[slot]}
                 <div class="flex-1 flex justify-center {showHeader ? "items-center" : "items-start"}">
-                    <img src={selected[slot].icon_file} alt={selected[slot].name} class="max-h-32" />
+                    <img src={selected[slot].icon_file} alt={selected[slot].name} class="max-h-16 md:max-h-24" />
                 </div>
-                <p class="text-lg mt-2">{selected[slot].name}</p>
+                <p class="text-xs sm:text-base mt-2">{selected[slot].name}</p>
             {:else if selected[slot] == undefined}
                 <p>No items available.</p>
             {:else}
                 <p>Loading...</p>
             {/if}
         </button>
-        <button class="absolute top-2 right-2 cursor-pointer" title="Tap to lock this item from re-rolling" onclick={() => toggleLock(slot)}>
+        <button class="absolute top-1 right-1 sm:top-2 sm:right-2 cursor-pointer" title="Tap to lock this item from re-rolling" onclick={() => toggleLock(slot)}>
             {#if locked[slot]}
                 <IconLockClosed />
             {:else}
@@ -193,7 +205,7 @@
         <div class="flex flex-row items-center justify-center mb-5">
             {@render ContainerHeader("Stratagem", "Stratagems")}
         </div>
-        <div class="grid grid-cols-4 gap-6">
+        <div class="grid grid-cols-4 gap-2 sm:gap-6">
             {#each stratagemSlots as slot}
                 {@render WeaponContainer(slot, false)}
             {/each}
@@ -204,12 +216,6 @@
         <button class="bg-blue-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-blue-700 transition cursor-pointer" onclick={rerollAll}>
             <IconDice class="inline-block mr-1 text-2xl" /> Reroll All
         </button>
-        <a class="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-700 transition cursor-pointer" href="/warbonds">
-            <IconList class="inline-block mr-1 text-2xl" /> Select available items
-        </a>
-        <a class="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-700 transition cursor-pointer" href="/options">
-            <IconSettings class="inline-block mr-1 text-2xl" /> Options
-        </a>
     </div>
 
     <!-- Make the browser pre-load all images so that updates are instant when re-rolling. -->
@@ -217,6 +223,53 @@
         {#each weapons.filter(p => p.checked) as weapon}
             <img src={weapon.icon_file} alt={weapon.name} width="1" height="1" loading="eager" />
         {/each}
+    </div>
+</div>
+
+<div class="mt-10 py-10 bg-gray-200">
+    <div class="flex flex-row flex-wrap justify-center gap-10">
+        <div class="text-center md:text-right w-96">
+            <h2 class="text-2xl">Available items</h2>
+            <table class="inline-block">
+                <thead></thead>
+                <tbody>
+                    {#each ordinarySlots.concat(["stratagem"]) as slot}
+                        {@const have = available[slot]?.filter(p => p.checked).length ?? "?"}
+                        {@const total = available[slot]?.length ?? "?"}
+                        <tr>
+                            <td class="pr-5">{slot}</td>
+                            <td>
+                                {#if have == total}
+                                    all ({total})
+                                {:else}
+                                    {have} / {total}
+                                {/if}
+                            </td>
+                        </tr>
+                    {/each}
+                </tbody>
+            </table>
+        </div>
+        <div class="text-center md:text-left w-96">
+            <h2 class="text-2xl">Rules</h2>
+            {#each Object.values(data.groups).filter(p => p.enabled && (p.min > 0 | p.max < 4)) as rule}
+                <div>
+                    {rule.title}:
+                    {describeRule(rule)}
+                </div>
+            {:else}
+                <div>No group restrictions.</div>
+            {/each}
+        </div>
+    </div>
+
+    <div class="flex justify-center gap-10 mt-10">
+        <a class="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-700 transition cursor-pointer" href="/warbonds">
+            <IconList class="inline-block mr-1 text-2xl" /> Items
+        </a>
+        <a class="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-700 transition cursor-pointer" href="/options">
+            <IconSettings class="inline-block mr-1 text-2xl" /> Rules
+        </a>
     </div>
 </div>
 

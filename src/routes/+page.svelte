@@ -167,7 +167,7 @@
     <div class="relative text-sm sm:text-base">
         <button
             class="w-full cursor-pointer text-center rounded-lg p-4 hover:bg-gray-100 transition flex flex-col justify-between items-center {showHeader ? "h-44 sm:h-64" : "h-32 sm:h-44"}" class:border={showHeader}
-            onclick={() => reroll(slot)}
+            onclick={() => reroll(slot)} data-umami-event="reroll-single-{slot.split("_")[0]}"
         >
             {#if showHeader}
                 {@render ContainerHeader(slot)}
@@ -183,7 +183,7 @@
                 <p>Loading...</p>
             {/if}
         </button>
-        <button class="absolute top-1 right-1 sm:top-2 sm:right-2 cursor-pointer" title="Tap to lock this item from re-rolling" onclick={() => toggleLock(slot)}>
+        <button class="absolute top-1 right-1 sm:top-2 sm:right-2 cursor-pointer" title="Tap to lock this item from re-rolling" onclick={() => toggleLock(slot)} data-umami-event="toggle-lock-{slot}">
             {#if locked[slot]}
                 <IconLockClosed />
             {:else}
@@ -213,7 +213,7 @@
     </div>
 
     <div class="flex justify-center gap-10">
-        <button class="bg-blue-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-blue-700 transition cursor-pointer" onclick={rerollAll}>
+        <button class="bg-blue-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-blue-700 transition cursor-pointer" onclick={rerollAll} data-umami-event="reroll-all">
             <IconDice class="inline-block mr-1 text-2xl" /> Reroll All
         </button>
     </div>
@@ -264,10 +264,10 @@
     </div>
 
     <div class="flex justify-center gap-10 mt-10">
-        <a class="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-700 transition cursor-pointer" href="/warbonds">
+        <a class="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-700 transition cursor-pointer" data-umami-event="items-button" href="/items">
             <IconList class="inline-block mr-1 text-2xl" /> Items
         </a>
-        <a class="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-700 transition cursor-pointer" href="/options">
+        <a class="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-700 transition cursor-pointer" data-umami-event="options-button" href="/rules">
             <IconSettings class="inline-block mr-1 text-2xl" /> Rules
         </a>
     </div>

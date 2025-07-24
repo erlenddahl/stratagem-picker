@@ -4,6 +4,7 @@
     import IconLockClosed from 'virtual:icons/ion/lock-closed';
     import IconList from 'virtual:icons/ion/list';
     import IconSettings from 'virtual:icons/ion/settings';
+    import IconGithub from 'virtual:icons/ion/logo-github';
 	import _ from "lodash";
 	import { pickRandom, setCookie } from '$lib/constants.js';
 	import StratagemPool from '$lib/stratagemPool.js';
@@ -272,7 +273,7 @@
     <h2 class="text-2xl">About</h2>
     <p>A simple and open source tool for picking random Helldivers 2 loadouts.</p>
     <p>Uses cookies to store your item selection and ruleset.</p>
-    <p><a class="underline" target="_blank" href="https://github.com/erlenddahl/stratagem-picker" data-umami-event="github-link">Help me improve it on Github</a></p>
+    <p><a class="underline" target="_blank" href="https://github.com/erlenddahl/stratagem-picker" data-umami-event="github-link"><IconGithub class="inline-block" /> Help me improve it on Github</a></p>
 </div>
 
 <style>

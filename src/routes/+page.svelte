@@ -13,11 +13,6 @@
     const weapons = data.weapons;
     const weaponLookup = _.keyBy(weapons, "id");
 
-    /*
-        PC and smart phone friendly menu allowing easy navigation between Main, Weapon selection and Groups.
-        Add About
-    */
-
     function filterByCategory(category) {
         return weapons.filter(
             p => p.category === "Weapon" && p.extra?.weapon_category === category
@@ -271,6 +266,13 @@
             <IconSettings class="inline-block mr-1 text-2xl" /> Rules
         </a>
     </div>
+</div>
+
+<div class="py-10 flex flex-col text-center gap-2">
+    <h2 class="text-2xl">About</h2>
+    <p>A simple and open source tool for picking random Helldivers 2 loadouts.</p>
+    <p>Uses cookies to store your item selection and ruleset.</p>
+    <p><a class="underline" target="_blank" href="https://github.com/erlenddahl/stratagem-picker" data-umami-event="github-link">Help me improve it on Github</a></p>
 </div>
 
 <style>

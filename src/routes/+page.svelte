@@ -273,6 +273,7 @@
     <h2 class="text-2xl">About</h2>
     <p>A simple and open source tool for picking random Helldivers 2 loadouts.</p>
     <p>Uses cookies to store your item selection and ruleset.</p>
+    <p>Uses a self-hosted Umami instance for some simple usage statistics.</p>
     <p><a class="underline" target="_blank" href="https://github.com/erlenddahl/stratagem-picker" data-umami-event="github-link"><IconGithub class="inline-block" /> Help me improve it on Github</a></p>
 </div>
 

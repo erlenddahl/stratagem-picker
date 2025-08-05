@@ -3116,5 +3116,26 @@
     "weapon_type": "",
     "url": "https://helldivers.wiki.gg/wiki/Stun_Pods",
     "extra": null
+  },
+  {
+    "id": 160,
+    "name": "A/LAS-98 Laser Sentry",
+    "icon_url": "https://helldivers.wiki.gg/images/5/57/A_LAS-98_Laser_Sentry_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\A_LAS-98_Laser_Sentry.png",
+    "thumb_file": "thumbs\\A_LAS-98_Laser_Sentry.png",
+    "warbond": "Control Group",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/A/LAS-98_Laser_Sentry",
+    "extra": {
+      "traits": [
+        "Hellpod",
+        "Sentry",
+        "Heavy Armor Penetrating",
+        "Heat",
+        "Beam"
+      ],
+      "permit_type": "Defensive"
+    }
   }
 ]

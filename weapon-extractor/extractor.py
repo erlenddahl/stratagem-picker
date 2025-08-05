@@ -3,23 +3,27 @@ import re
 import json
 import time
 import requests
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+import undetected_chromedriver as uc
 from bs4 import BeautifulSoup
 from PIL import Image, ImageChops, ImageOps
 from io import BytesIO
 from wand.image import Image as WandImage
 
 class SoupFetcher:
-    def __init__(self, headless=True):
-        options = Options()
-        if headless:
-            options.add_argument("--headless")
-        self.driver = webdriver.Chrome(options=options)
+    def __init__(self, page_delay = 0):
+        self.driver = uc.Chrome() 
+        self.page_delay = page_delay
 
     def get_soup(self, url):
         print(f"\nFetching: {url}")
         self.driver.get(url)
+
+        time.sleep(self.page_delay)
+
+        while "Security checks are being performed by" in self.driver.page_source:
+            print("Waiting for Cloudflare verification, please solve in browser...")
+            time.sleep(1)
+
         return BeautifulSoup(self.driver.page_source, "html.parser")
 
     def close(self):
@@ -208,7 +212,8 @@ def convert_thumb_to_original(url):
 def load_stratagems(fetcher):
     soup = fetcher.get_soup(STRATAGEM_URL)
     table = soup.find("table", class_="wikitable")
-    if not table: raise RuntimeError("Could not find boosters table.")
+    if not table: 
+        raise RuntimeError("Could not find boosters table.")
 
     current_type = ""
 
@@ -359,7 +364,7 @@ def main():
 
     global weapons
 
-    fetcher = SoupFetcher()
+    fetcher = SoupFetcher(1)
 
     with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
         weapons = json.load(f)

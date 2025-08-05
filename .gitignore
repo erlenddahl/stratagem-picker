@@ -1,5 +1,6 @@
 weapon-extractor/images
 weapon-extractor/thumbs
+weapon-extractor/_selenium_profile
 weapon-extractor/helldivers_weapons.json
 
 .vscode/settings.json

@@ -9,7 +9,8 @@ export default class StratagemPool{
             .filter(p => p.enabled)
             .map(p => ({
                 ...p,
-                picked: 0
+                picked: 0,
+                items: p.items.filter(p => p.checked)
             }));
     }
 

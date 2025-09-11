@@ -3137,5 +3137,210 @@
       ],
       "permit_type": "Defensive"
     }
+  },
+  {
+    "id": 161,
+    "name": "MS-11 Solo Silo",
+    "icon_url": "https://helldivers.wiki.gg/images/MS-11_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\MS-11_Solo_Silo.png",
+    "thumb_file": "thumbs\\MS-11_Solo_Silo.png",
+    "warbond": "Dust Devils",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/MS-11_Solo_Silo",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Anti-tank"
+      ],
+      "permit_type": "Defensive"
+    }
+  },
+  {
+    "id": 162,
+    "name": "EAT-700 Expendable Napalm",
+    "icon_url": "https://helldivers.wiki.gg/images/EAT-700_Expendable_Napalm_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\EAT-700_Expendable_Napalm.png",
+    "thumb_file": "thumbs\\EAT-700_Expendable_Napalm.png",
+    "warbond": "Dust Devils",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/EAT-700_Expendable_Napalm",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod",
+        "Incendiary",
+        "Expendable"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Missiles",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 163,
+    "name": "S-11 Speargun",
+    "icon_url": "https://helldivers.wiki.gg/images/S-11_Speargun_Stratagem_Icon.png?format=original",
+    "icon_file": "images\\S-11_Speargun.png",
+    "thumb_file": "thumbs\\S-11_Speargun.png",
+    "warbond": "Dust Devils",
+    "category": "Stratagem",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/S-11_Speargun",
+    "extra": {
+      "traits": [
+        "Support Weapon",
+        "Hellpod"
+      ],
+      "ship_module": "Patriotic Administration Center",
+      "weapon_category": "Support Weapons",
+      "weapon_type": "Anti-Armor Precision",
+      "penetration": "Anti-Tank I",
+      "permit_type": "Supply"
+    }
+  },
+  {
+    "id": 164,
+    "name": "AR-2 Coyote",
+    "icon_url": "https://helldivers.wiki.gg/images/AR-2_Coyote_Primary_Render.png?e38dba",
+    "icon_file": "images\\AR-2_Coyote.png",
+    "thumb_file": "thumbs\\AR-2_Coyote.png",
+    "warbond": "Dust Devils",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/AR-2_Coyote",
+    "extra": {
+      "traits": [
+        "Incendiary",
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Assault Rifle",
+      "penetration": "Medium",
+      "source": "Dust Devils"
+    }
+  },
+  {
+    "id": 165,
+    "name": "MA5C Assault Rifle",
+    "icon_url": "https://helldivers.wiki.gg/images/MA5C_Assault_Rifle_Primary_Render.png?41f6ef",
+    "icon_file": "images\\MA5C_Assault_Rifle.png",
+    "thumb_file": "thumbs\\MA5C_Assault_Rifle.png",
+    "warbond": "Halo: ODST",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/MA5C_Assault_Rifle",
+    "extra": {
+      "traits": [
+        "Medium Armor Penetrating"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Assault Rifles",
+      "penetration": "Medium",
+      "source": "Halo: ODST P1"
+    }
+  },
+  {
+    "id": 166,
+    "name": "M7S SMG",
+    "icon_url": "https://helldivers.wiki.gg/images/M7S_SMG_Primary_Render.png?b5d4a5",
+    "icon_file": "images\\M7S_SMG.png",
+    "thumb_file": "thumbs\\M7S_SMG.png",
+    "warbond": "Halo: ODST",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/M7S_SMG",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "One Handed",
+        "Suppressed"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Submachine Guns",
+      "penetration": "Light",
+      "source": "Halo: ODST P2"
+    }
+  },
+  {
+    "id": 167,
+    "name": "M90A Shotgun",
+    "icon_url": "https://helldivers.wiki.gg/images/M90A_Shotgun_Primary_Render.png?26316a",
+    "icon_file": "images\\M90A_Shotgun.png",
+    "thumb_file": "thumbs\\M90A_Shotgun.png",
+    "warbond": "Halo: ODST",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/M90A_Shotgun",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "Rounds Reload"
+      ],
+      "weapon_category": "Primary Weapons",
+      "weapon_type": "Shotguns",
+      "penetration": "Light",
+      "source": "Obedient Democracy Support Troopers Legendary Warbond , page 3"
+    }
+  },
+  {
+    "id": 168,
+    "name": "M6C/SOCOM Pistol",
+    "icon_url": "https://helldivers.wiki.gg/images/M6C_SOCOM_Pistol_Secondary_Render.png?288093",
+    "icon_file": "images\\M6C_SOCOM_Pistol.png",
+    "thumb_file": "thumbs\\M6C_SOCOM_Pistol.png",
+    "warbond": "Halo: ODST",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/M6C/SOCOM_Pistol",
+    "extra": {
+      "traits": [
+        "Light Armor Penetrating",
+        "One Handed",
+        "Suppressed"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Pistols",
+      "penetration": "Light",
+      "source": "Halo: ODST P3"
+    }
+  },
+  {
+    "id": 169,
+    "name": "CQC-42 Machete",
+    "icon_url": "https://helldivers.wiki.gg/images/CQC-42_Machete_Secondary_Render.png?25973a",
+    "icon_file": "images\\CQC-42_Machete.png",
+    "thumb_file": "thumbs\\CQC-42_Machete.png",
+    "warbond": "Other",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/CQC-42_Machete",
+    "extra": {
+      "traits": [
+        "One Handed"
+      ],
+      "weapon_category": "Secondary Weapons",
+      "weapon_type": "Melee",
+      "penetration": "Medium",
+      "source": "Superstore"
+    }
+  },
+  {
+    "id": 170,
+    "name": "G-7 Pineapple",
+    "icon_url": "https://helldivers.wiki.gg/images/G-7_Pineapple_Throwable_Render.png?c95cad",
+    "icon_file": "images\\G-7_Pineapple.png",
+    "thumb_file": "thumbs\\G-7_Pineapple.png",
+    "warbond": "Dust Devils",
+    "category": "Weapon",
+    "weapon_type": "",
+    "url": "https://helldivers.wiki.gg/wiki/G-7_Pineapple",
+    "extra": {
+      "penetration": "Medium",
+      "weapon_category": "Grenades"
+    }
   }
 ]

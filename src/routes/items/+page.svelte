@@ -33,7 +33,9 @@
         "Borderline Justice",
         "Masters of Ceremony",
         "Force of Law",
-        "Control Group"
+        "Control Group",
+        "Dust Devils",
+        "Halo: ODST"
     ];
 
     function saveCheckedWeapons() {

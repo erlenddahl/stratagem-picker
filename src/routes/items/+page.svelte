@@ -34,8 +34,14 @@
         "Masters of Ceremony",
         "Force of Law",
         "Control Group",
+        "Halo: ODST",
         "Dust Devils",
-        "Halo: ODST"
+        "Python Commandos",
+        "Righteous Revenants",
+        "Redacted Regiment",
+        "Siege Breakers",
+        "Entrenched Division",
+        "Exo Experts"
     ];
 
     function saveCheckedWeapons() {

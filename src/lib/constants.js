@@ -22,7 +22,15 @@ export const warbondSortOrder = [
     "Borderline Justice",
     "Masters of Ceremony",
     "Force of Law",
-    "Control Group"
+    "Control Group",
+    "Halo: ODST",
+    "Dust Devils",
+    "Python Commandos",
+    "Righteous Revenants",
+    "Redacted Regiment",
+    "Siege Breakers",
+    "Entrenched Division",
+    "Exo Experts"
 ];
 
 export function getGroups(weapons){

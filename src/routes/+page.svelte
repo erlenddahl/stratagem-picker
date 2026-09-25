@@ -5,6 +5,7 @@
     import IconList from 'virtual:icons/ion/list';
     import IconSettings from 'virtual:icons/ion/settings';
     import IconGithub from 'virtual:icons/ion/logo-github';
+    import IconHistory from 'virtual:icons/ion/time-outline';
 	import _ from "lodash";
 	import { pickRandom, setCookie } from '$lib/constants.js';
 	import StratagemPool from '$lib/stratagemPool.js';
@@ -274,7 +275,10 @@
     <p>A simple and open source tool for picking random Helldivers 2 loadouts.</p>
     <p>Uses cookies to store your item selection and ruleset.</p>
     <p>Uses a self-hosted Umami instance for some simple usage statistics.</p>
-    <p><a class="underline" target="_blank" href="https://github.com/erlenddahl/stratagem-picker" data-umami-event="github-link"><IconGithub class="inline-block" /> Help me improve it on Github</a></p>
+    <p>
+        <a class="underline" target="_blank" href="https://github.com/erlenddahl/stratagem-picker" data-umami-event="github-link"><IconGithub class="inline-block" /> Help me improve it on Github</a>
+        <a class="underline ml-4" href="/changelog" data-umami-event="changelog-link"><IconHistory class="inline-block" /> Changelog</a>
+    </p>
 </div>
 
 <style>

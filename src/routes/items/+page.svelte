@@ -6,6 +6,7 @@
     import IconChecked from 'virtual:icons/fluent/checkbox-checked-24-filled';
     import IconIndeterminate from 'virtual:icons/fluent/checkbox-indeterminate-24-filled';
     import IconUnchecked from 'virtual:icons/fluent/checkbox-unchecked-24-filled';
+    import ItemTile from '$lib/ItemTile.svelte';
 
 	import { setCookie } from "$lib/constants.js";
 
@@ -41,7 +42,9 @@
         "Redacted Regiment",
         "Siege Breakers",
         "Entrenched Division",
-        "Exo Experts"
+        "Exo Experts",
+        "Castellan's Creed",
+        "Ironclad Democracy"
     ];
 
     function saveCheckedWeapons() {
@@ -71,12 +74,6 @@
 
     let warbonds = $state(createWarbondData(data.weapons));
     
-    function getScale(item){
-        if(item.category == "Stratagem") return 0.25;
-        if(item.category == "Booster") return 0.30;
-        return 0.45;
-    }
-
     function toggleAll(items, value=undefined){
         const newValue = value==undefined ? !items[0].checked : value;
         for(const item of items){
@@ -171,23 +168,7 @@
         {#if warbond.opened}
             <div class="flex flex-wrap mb-10">
                 {#each warbond.items as weapon}
-                    <button class="relative flex flex-row items-center justify-start gap-5 m-5 rounded-md border border-gray-400 hover:bg-gray-300 p-5 cursor-pointer w-96 h-24" onclick={() => weapon.checked = !weapon.checked}>
-                        <div class="inline-block">
-                            <img
-                                src={weapon.icon_file}
-                                alt={weapon.name}
-                                style="max-width: {249*getScale(weapon)}px; max-height: {180*getScale(weapon)}px"
-                                class="m-5 transition-opacity duration-300 {weapon.checked ? 'opacity-100' : 'opacity-50 grayscale'}"
-                            />
-                        </div>
-                        <p class="truncate">{weapon.name}</p>
-                        {#if weapon.checked}
-                            <div class="absolute bottom-3 left-1 text-green-400 rounded-md font-bold w-8 h-8 flex flex-col justify-center items-center text-2xl leading-none">
-                                <IconChecked />
-                            </div>
-                        {/if}
-                        <a href={weapon.url} onclick={e => e.cancelBubble()} target="_blank" class="absolute top-1 right-1 bg-blue-200 text-blue-400 opacity-25 hover:opacity-100 rounded-md font-bold w-5 h-5 flex flex-col justify-center items-center text-sm leading-none">i</a>
-                    </button>
+                    <ItemTile item={weapon} onToggle={() => weapon.checked = !weapon.checked} />
                 {/each}
             </div>
         {/if}

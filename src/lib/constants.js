@@ -30,7 +30,9 @@ export const warbondSortOrder = [
     "Redacted Regiment",
     "Siege Breakers",
     "Entrenched Division",
-    "Exo Experts"
+    "Exo Experts",
+    "Castellan's Creed",
+    "Ironclad Democracy"
 ];
 
 export function getGroups(weapons){

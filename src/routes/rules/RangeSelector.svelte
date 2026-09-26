@@ -22,15 +22,15 @@
 
 <div class="p-4 border rounded shadow">
     <button class="w-full flex items-center justify-between cursor-pointer" onclick={toggle} data-umami-event="toggle-rule-{id}">
-        <div class="flex flex-col items-start">
+        <div class="flex min-w-0 flex-col items-start">
             <span class="text-lg font-semibold">{title}</span>
-            <div class="flex flex-row gap-1">
+            <div class="flex flex-wrap gap-1">
                 {#each items as item}
                     <img src={item.icon_file} alt={item.name} title={item.name} class="max-h-8 {item.checked ? "" : "opacity-50 grayscale"}" />
                 {/each}
             </div>
         </div>
-        <div>
+        <div class="shrink-0">
             {#if enabled}
                 <IconChecked class="text-2xl" />
             {:else}

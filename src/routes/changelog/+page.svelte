@@ -18,8 +18,7 @@
         <IconBack class="inline-block mr-1 text-2xl" /> Back to stratagem picker
     </a>
 
-    <h1 class="text-3xl font-bold mb-3">Item changelog</h1>
-    <p class="mb-8">See when items were added to the picker.</p>
+    <h1 class="text-3xl font-bold mb-8">Changelog</h1>
 
     {#each entries as entry}
         <section class="mb-8">

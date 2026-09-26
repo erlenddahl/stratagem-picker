@@ -64,7 +64,7 @@
             .filter(p => !p.disabled)
             .groupBy('warbond')
             .map((items, warbond) => ({
-                title: warbondSortOrder.indexOf(warbond) >= 7 ? "Warbond: " + warbond : warbond,
+                title: warbond,
                 sortIndex: warbondSortOrder.indexOf(warbond),
                 items
             }))
@@ -148,7 +148,7 @@
     {#each warbonds as warbond}
         {@const status = getGroupStatus(warbond.items)}
         <div class="flex flex-row gap-3 border-b-gray-400 pb-3" class:border-b={warbond.opened}>
-            <button class="{getGroupColors(warbond.items)} cursor-pointer rounded-md font-bold w-8 h-8 flex flex-col justify-center items-center text-2xl leading-none" onclick={() => toggleAll(warbond.items)}>
+            <button class="{getGroupColors(warbond.items)} cursor-pointer rounded-md font-bold w-8 h-8 shrink-0 flex flex-col justify-center items-center text-2xl leading-none" onclick={() => toggleAll(warbond.items)}>
                 {#if status == "all"}
                     <IconChecked />
                 {:else if status == "none"}
@@ -157,13 +157,13 @@
                     <IconIndeterminate />
                 {/if}
             </button>
-            <button class="cursor-pointer flex flex-row gap-5" onclick={() => warbond.opened = !warbond.opened}>
-                <div class="rounded-md font-bold w-8 h-8 flex flex-col justify-center items-center text-2xl leading-none" class:rotate-90={warbond.opened}>
+            <button class="cursor-pointer flex min-w-0 flex-1 flex-row gap-5 text-left" onclick={() => warbond.opened = !warbond.opened}>
+                <div class="rounded-md font-bold w-8 h-8 shrink-0 flex flex-col justify-center items-center text-2xl leading-none" class:rotate-90={warbond.opened}>
                     <IconChevron />
                 </div>
-                <span class="text-2xl font-bold">{warbond.title}</span>
+                <span class="min-w-0 text-left text-2xl font-bold wrap-anywhere">{warbond.title}</span>
             </button>
-            <button class="cursor-pointer" onclick={() => toggleAll(warbond.items)}>[{warbond.items.filter(p => p.checked).length} / {warbond.items.length}]</button>
+            <button class="cursor-pointer shrink-0 whitespace-nowrap" onclick={() => toggleAll(warbond.items)}>[{warbond.items.filter(p => p.checked).length} / {warbond.items.length}]</button>
         </div>
         {#if warbond.opened}
             <div class="flex flex-wrap mb-10">
